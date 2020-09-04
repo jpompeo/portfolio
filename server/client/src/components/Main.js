@@ -1,20 +1,16 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import '../styles/Main.css'
+import '../styles/Main.css';
+import Bio from './Bio';
 
 const Main = () => {
     return (
-        <Container>
+        <Container fluid>
             <Row id="main-page">
-                <Col lg={4}>
-                    <div>
-                        Headshot
-                    </div>
-                    <div>
-                        Bio
-                    </div>
+                <Col lg={5}>
+                    <Bio/>
                 </Col>
-                <Col lg={8}>
+                <Col lg={7}>
                     <div>
                         Demo
                     </div>
