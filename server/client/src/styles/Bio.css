@@ -7,9 +7,9 @@
 #headshot {
     width: 50%;
     float: left;
-    margin: 0 20px 10px 0;
+    margin: 0 15px 10px 0;
     border-radius: 7px;
-    box-shadow: 4px 4px 8px rgba(48, 49, 49, .4);
+    box-shadow: 3px 3px 7px rgba(48, 49, 49, .4);
 }
 
 .bio-text {

@@ -4,7 +4,11 @@
     padding: 10px;
 }
 
-#demo-video iframe{
+.demo-video {
+    text-align: center;
+}
+
+#demo-writetrack iframe{
     border-radius: 7px;
-    box-shadow: 4px 4px 8px rgba(48, 49, 49, .4);
+    box-shadow: 3px 3px 7px rgba(48, 49, 49, .4);
 }

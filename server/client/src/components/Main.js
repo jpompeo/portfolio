@@ -1,8 +1,9 @@
 import React from "react";
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Col, Container, Carousel } from "react-bootstrap";
 import '../styles/Main.css';
 import Bio from './Bio';
 import Demo from './Demo';
+import Cohort from "./Cohort";
 
 const Main = () => {
     return (
@@ -10,11 +11,22 @@ const Main = () => {
             <Row id="main-page">
                 <Col lg={5}>
                     {/* Headshot and Bio */}
-                    <Bio/>
+                    <Bio />
                 </Col>
                 <Col lg={7}>
-                    {/* Final project demo video */}
-                    <Demo/>
+                    <Carousel>
+
+                        {/* Final project w/demo*/}
+                        <Carousel.Item>
+                            <Demo />
+                        </Carousel.Item>
+
+                        {/* Cohort Project w/demo */}
+                        <Carousel.Item>
+                            <Cohort/>
+                        </Carousel.Item>
+
+                    </Carousel>
 
                     <div>
                         Links
