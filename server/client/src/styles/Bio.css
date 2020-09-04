@@ -1,6 +1,7 @@
 #bio {
     border: 2px solid teal;
-    padding: 5px;
+    padding: 10px;
+    overflow-y: hidden;
 }
 
 #headshot {
@@ -15,3 +16,4 @@
     text-indent: 10%;
     text-align: justify;
 }
+
