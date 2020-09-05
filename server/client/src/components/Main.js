@@ -1,4 +1,5 @@
 import React from "react";
+import { Switch, Route, Link } from "react-router-dom";
 import { Row, Col, Container, Carousel } from "react-bootstrap";
 import '../styles/Main.css';
 import Bio from './Bio';
@@ -9,24 +10,23 @@ const Main = () => {
     return (
         <Container fluid>
             <Row id="main-page">
+
                 <Col lg={5}>
                     {/* Headshot and Bio */}
                     <Bio />
                 </Col>
+
                 <Col lg={7}>
-                    <Carousel>
+                
+                    <Switch>
 
                         {/* Final project w/demo*/}
-                        <Carousel.Item>
-                            <Demo />
-                        </Carousel.Item>
-
+                            <Route exact path="/projects/write-track" component={Demo} />
+                       
                         {/* Cohort Project w/demo */}
-                        <Carousel.Item>
-                            <Cohort/>
-                        </Carousel.Item>
+                            <Route exact path="/projects/cohort" component={Cohort} />
 
-                    </Carousel>
+                    </Switch>
 
                     <div>
                         Links
