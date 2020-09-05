@@ -2,7 +2,7 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 import { Row, Col, Container } from "react-bootstrap";
 import Main from './Main';
-import Nav from './Nav';
+import Sidebar from './Sidebar';
 import Bio from './Bio';
 import Demo from './Demo';
 import Cohort from './Cohort';
@@ -13,14 +13,14 @@ const App = () => {
   return (
     <Container fluid id="app-view">
       <Row>
-        <Col md={4}>
+        <Col md={3}>
 
           {/* Side bar navigation */}
-          <Nav />
+          <Sidebar />
 
         </Col>
 
-        <Col md={8}>
+        <Col md={9}>
 
           {/* Header */}
           <header>
