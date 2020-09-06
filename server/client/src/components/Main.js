@@ -5,31 +5,17 @@ import '../styles/Main.css';
 import Bio from './Bio';
 import Demo from './Demo';
 import Cohort from "./Cohort";
+import WordCloud from '../assets/wordcloud.jpg';
+
+
 
 const Main = () => {
     return (
         <Container fluid>
             <Row id="main-page">
-
-                <Col lg={5}>
-                    {/* Headshot and Bio */}
-                    <Bio />
-                </Col>
-
-                <Col lg={7}>
-                
-                    <Switch>
-
-                        {/* Final project w/demo*/}
-                            <Route exact path="/projects/write-track" component={Demo} />
-                       
-                        {/* Cohort Project w/demo */}
-                            <Route exact path="/projects/cohort" component={Cohort} />
-
-                    </Switch>
-
-                    <div>
-                        Links
+                <Col>
+                    <div id="wordcloud">
+                        <img src={WordCloud} alt="wordcloud" />
                     </div>
                 </Col>
             </Row>

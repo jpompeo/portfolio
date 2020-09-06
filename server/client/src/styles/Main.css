@@ -1,0 +1,14 @@
+#wordcloud {
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(175, 210, 117, 1);
+    padding: 0;
+}
+
+#wordcloud img {
+    width: 100%;
+    margin: 0;
+}

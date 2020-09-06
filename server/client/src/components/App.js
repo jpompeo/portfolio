@@ -7,6 +7,8 @@ import Bio from './Bio';
 import Demo from './Demo';
 import Cohort from './Cohort';
 
+
+
 import "../styles/App.css";
 
 const App = () => {
@@ -24,7 +26,7 @@ const App = () => {
             <Switch>
 
               {/* Default view */}
-              {/* <Route exact path={["/", "/main"]} component={Main} /> */}
+              <Route exact path={["/", "/main"]} component={Main} />
 
               {/* Bio */}
               <Route exact path="/bio" component={Bio} />
