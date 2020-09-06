@@ -1,0 +1,13 @@
+#header-nav {
+    color: rgba(231, 113, 125, 1);
+    background-color: rgba(195, 221, 152, 1);
+    width: 100%;
+}
+
+#header-nav a {
+    color: rgba(231, 113, 125, 1);
+}
+
+#header-nav a:hover {
+    color: rgba(194, 185, 178, 1);
+}

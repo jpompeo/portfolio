@@ -2,7 +2,7 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 import { Row, Col, Container } from "react-bootstrap";
 import Main from './Main';
-import Sidebar from './Sidebar';
+import Header from './Header';
 import Bio from './Bio';
 import Demo from './Demo';
 import Cohort from './Cohort';
@@ -11,44 +11,36 @@ import "../styles/App.css";
 
 const App = () => {
   return (
-    <Container fluid id="app-view">
-      <Row>
-        <Col md={3}>
+    <React.Fragment>
 
-          {/* Side bar navigation */}
-          <Sidebar />
+      {/* Header navigation */}
+      < Header />
 
-        </Col>
+      <Container fluid id="app-view">
+        <Row>
+          <Col >
 
-        <Col md={9}>
+            {/* Main page*/}
+            <Switch>
 
-          {/* Header */}
-          <header>
-            <h1>Joanna Pompeo</h1>
-            <h2>Full Stack Software Engineer</h2>
-          </header>
+              {/* Default view */}
+              {/* <Route exact path={["/", "/main"]} component={Main} /> */}
 
-          {/* Main page*/}
-          <Switch>
+              {/* Bio */}
+              <Route exact path="/bio" component={Bio} />
 
-            {/* Default view */}
-            {/* <Route exact path={["/", "/main"]} component={Main} /> */}
+              {/* Write Track demo */}
+              <Route exact path="/projects/write-track" component={Demo} />
 
-            {/* Bio */}
-            <Route exact path="/bio" component={Bio} />
+              {/* Muze Networking/ Cohort project */}
+              <Route exact path="/projects/cohort" component={Cohort} />
 
-            {/* Write Track demo */}
-            <Route exact path="/projects/write-track" component={Demo} />
+            </Switch>
 
-            {/* Muze Networking/ Cohort project */}
-            <Route exact path="/projects/cohort" component={Cohort} />
-
-
-          </Switch>
-
-        </Col>
-      </Row>
-    </Container>
+          </Col>
+        </Row>
+      </Container>
+    </React.Fragment>
   );
 };
 
