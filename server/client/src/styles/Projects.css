@@ -4,15 +4,18 @@
     background-color: rgba(253, 236, 176, .4);
     border-radius: 10px;
     padding: 10px 30px;
-    border: solid 1px rgba(158, 154, 140, 1);
-    /* border: rgba(125, 120, 101 , .3) solid 3px; */
-    /* box-shadow: 3px 3px 7px rgba(125, 120, 101 , .2); */
+    background-color: rgba(253, 236, 176, .4);
+    border: 5px solid rgba(253, 236, 176 , .3);
+    box-shadow: 3px 3px 7px rgba(125, 120, 101, .2);
 }
 
 .project-list-item {
     width: 100%;
-    height: 100px;
-    border: 2px solid rgba(125, 120, 101, 1);
+    height: 40vh;
+    /* border: 2px solid rgba(125, 120, 101, 1); */
     margin: 20px auto;
-    border-radius: 10px;
+    border-radius: 50% 5px;
+    background-color: rgba(252, 225, 129, 1);
+    /* border: 5px solid rgba(252, 225, 129, .1); */
+    /* box-shadow: 3px 3px 7px inset rgba(125, 120, 101, .2); */
 }
