@@ -11,9 +11,9 @@ const Header = () => {
       <Navbar collapseOnSelect expand="lg">
         <Navbar.Brand href="#home" id="logo">
           <span id="header-name">Joanna Pompeo </span>
-          <br/>
-          <span id="header-title">Full Stack Software Engineer</span>
-        </Navbar.Brand>
+          {/* <br/> */} 	
+          <span id="header-title"> &diams; Full Stack Software Engineer</span>
+         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">

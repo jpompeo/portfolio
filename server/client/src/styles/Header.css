@@ -3,6 +3,7 @@
     background-color: rgba(254, 249, 199, .5);
     width: 100%;
     margin: 0 0 20px;
+    font-family: 'Lexend Peta', sans-serif;
 }
 
 #header-nav a {
@@ -14,16 +15,16 @@
 }
 
 #logo {
-    text-align: center;
+    /* text-align: center; */
 }
 
 #header-name {
     font-size: 30px;
     color: #026670;
-    text-align: center;
+    font-variant: small-caps;
 }
 
 #header-title {
-    font-size: 15px;
-    text-align: center;
+    font-size: 20px;
 }
+
