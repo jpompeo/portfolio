@@ -1,13 +1,22 @@
 #header-nav {
-    color: rgba(231, 113, 125, 1);
-    background-color: rgba(195, 221, 152, 1);
+    color: rgba(237, 234, 229, 1);
+    background-color: rgba(2, 102, 112 , 1);
     width: 100%;
 }
 
-#header-nav a {
+/* #header-nav a {
     color: rgba(231, 113, 125, 1);
 }
 
 #header-nav a:hover {
     color: rgba(194, 185, 178, 1);
+} */
+
+#header-name {
+    font-size: 40px;
+    color: rgba(237, 234, 229, 1);
+}
+
+#header-title {
+    font-size: 22px;
 }

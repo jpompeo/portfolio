@@ -7,34 +7,34 @@ const Header = () => {
   return (
     <header id="header-nav">
 
-    
-    <Navbar  collapseOnSelect expand="lg">
-  <Navbar.Brand href="#home">Joanna Pompeo</Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="mr-auto">
-    <Nav.Link href="/main">Active</Nav.Link>
-      <Nav.Link href="/bio">Bio</Nav.Link>
-      <Nav.Link href="/projects/write-track">Write Track</Nav.Link>
-      <Nav.Link href="/projects/cohort">Cohort</Nav.Link>
-      <NavDropdown title="Projects" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="/projects/write-track">Write Track</NavDropdown.Item>
-        <NavDropdown.Item href="/projects/cohort">Cohort</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-      </NavDropdown>
-    </Nav>
-    <Nav>
-      <Nav.Link href="#deets">More deets</Nav.Link>
-      <Nav.Link eventKey={2} href="#memes">
-        Dank memes
-      </Nav.Link>
-    </Nav>
-  </Navbar.Collapse>
-</Navbar>
-</header>
-    
+
+      <Navbar collapseOnSelect expand="lg">
+        <Navbar.Brand href="#home">
+          <span id="header-name">Joanna Pompeo </span>
+          <br/>
+          <span id="header-title">Full Stack Software Engineer</span>
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="mr-auto">
+            
+          </Nav>
+          <Nav>
+          <Nav.Link href="/home">Home</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
+            <NavDropdown title="Projects" id="collasible-nav-dropdown">
+              <NavDropdown.Item href="/projects/write-track">Write Track</NavDropdown.Item>
+              <NavDropdown.Item href="/projects/cohort">Cohort</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link href="/about">Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+    </header>
+
 
 
     // <Container fluid>

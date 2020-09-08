@@ -26,10 +26,10 @@ const App = () => {
             <Switch>
 
               {/* Default view */}
-              <Route exact path={["/", "/main"]} component={Main} />
+              <Route exact path={["/", "/home"]} component={Main} />
 
               {/* Bio */}
-              <Route exact path="/bio" component={Bio} />
+              <Route exact path="/about" component={Bio} />
 
               {/* Write Track demo */}
               <Route exact path="/projects/write-track" component={Demo} />
