@@ -7,7 +7,7 @@ import Bio from './Bio';
 import Demo from './Demo';
 import Cohort from './Cohort';
 import Projects from './Projects';
-
+import Contact from './Contact';
 
 
 import "../styles/App.css";
@@ -34,6 +34,9 @@ const App = () => {
 
               {/* Projects */}
               <Route exact path="/projects" component={Projects} />
+
+              {/* Contact */}
+              <Route exact path="/contact" component={Contact} />
 
               {/* Write Track demo */}
               <Route exact path="/projects/write-track" component={Demo} />

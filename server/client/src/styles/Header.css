@@ -1,17 +1,18 @@
 #header-nav {
-    color: rgba(159, 237, 215 , 1);
-    background-color: rgba(254, 249, 199, .5);
+    /* color: rgba(159, 237, 215 , 1); */
+    color: #7D7865;
+    background-color: rgba(253, 236, 176, .7);
     width: 100%;
     margin: 0 0 20px;
     font-family: 'Lexend Peta', sans-serif;
 }
 
 #header-nav a {
-    color: #026670;
+    color: #7D7865;
 }
 
 #header-nav a:hover {
-    color: #9fedd7;
+    color: #7D7865;
 }
 
 #logo {
@@ -20,7 +21,6 @@
 
 #header-name {
     font-size: 30px;
-    color: #026670;
     font-variant: small-caps;
 }
 

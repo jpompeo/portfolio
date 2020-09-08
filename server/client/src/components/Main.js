@@ -15,7 +15,8 @@ const Main = () => {
             <Row id="main-page">
                 <Col>
                     <div id="wordcloud">
-                        <img src={WordCloud} alt="wordcloud" />
+                        {/* <img src={WordCloud} alt="wordcloud" /> */}
+                        Main Page
                     </div>
                 </Col>
             </Row>
