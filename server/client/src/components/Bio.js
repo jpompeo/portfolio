@@ -11,7 +11,7 @@ const Bio = () => {
             <img id="headshot" src={JoannaHeadshot} alt="Joanna Headshot" />
 
             {/* Bio */}
-            <p className="bio-text">
+            <p className="bio-text first-paragraph">
                 Full Stack Software Engineer with a background in Team Leadership and Customer Service. My past experience has given me opportunities to enhance my communication skills and collaborate with diverse teams, as well as helping me strengthen my ability to keep a calm and positive attitude even in high-pressure situations.
             </p>
             <p className="bio-text">

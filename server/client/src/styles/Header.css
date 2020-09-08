@@ -1,11 +1,15 @@
 #header-nav {
     /* color: rgba(159, 237, 215 , 1); */
     color: #7D7865;
-    background-color: rgba(253, 236, 176, .7);
+    background-color: rgba(253, 236, 176, .5);
     width: 100%;
     margin: 0 0 20px;
     font-family: 'Lexend Peta', sans-serif;
+    box-shadow: 3px 3px 7px rgba(125, 120, 101, .2);
+    /* border-bottom: 5px solid rgba(253, 236, 176 , .4);
+    border-top: 5px solid rgba(253, 236, 176 , .4); */
 }
+
 
 #header-nav a {
     color: #7D7865;
@@ -16,6 +20,9 @@
 }
 
 #logo {
+    padding: 0;
+    margin: 0;
+    margin-top: -5px;
     /* text-align: center; */
 }
 
@@ -25,6 +32,6 @@
 }
 
 #header-title {
-    font-size: 20px;
+    font-size: 17px;
 }
 
