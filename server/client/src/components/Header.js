@@ -9,7 +9,7 @@ const Header = () => {
 
 
       <Navbar collapseOnSelect expand="lg">
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="#home" id="logo">
           <span id="header-name">Joanna Pompeo </span>
           <br/>
           <span id="header-title">Full Stack Software Engineer</span>

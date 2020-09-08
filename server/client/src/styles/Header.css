@@ -1,22 +1,29 @@
 #header-nav {
-    color: rgba(237, 234, 229, 1);
-    background-color: rgba(2, 102, 112 , 1);
+    color: rgba(159, 237, 215 , 1);
+    background-color: rgba(254, 249, 199, .5);
     width: 100%;
+    margin: 0 0 20px;
 }
 
-/* #header-nav a {
-    color: rgba(231, 113, 125, 1);
+#header-nav a {
+    color: #026670;
 }
 
 #header-nav a:hover {
-    color: rgba(194, 185, 178, 1);
-} */
+    color: #9fedd7;
+}
+
+#logo {
+    text-align: center;
+}
 
 #header-name {
-    font-size: 40px;
-    color: rgba(237, 234, 229, 1);
+    font-size: 30px;
+    color: #026670;
+    text-align: center;
 }
 
 #header-title {
-    font-size: 22px;
+    font-size: 15px;
+    text-align: center;
 }

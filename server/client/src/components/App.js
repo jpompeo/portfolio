@@ -6,6 +6,7 @@ import Header from './Header';
 import Bio from './Bio';
 import Demo from './Demo';
 import Cohort from './Cohort';
+import Projects from './Projects';
 
 
 
@@ -30,6 +31,9 @@ const App = () => {
 
               {/* Bio */}
               <Route exact path="/about" component={Bio} />
+
+              {/* Projects */}
+              <Route exact path="/projects" component={Projects} />
 
               {/* Write Track demo */}
               <Route exact path="/projects/write-track" component={Demo} />
