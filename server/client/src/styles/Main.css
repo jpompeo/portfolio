@@ -1,22 +1,3 @@
-#wordcloud {
-    text-align: center;
-    border-radius: 10px;
-    overflow: hidden;
-    width: 80%;
-    margin: 0 auto;
-    background-color: rgba(175, 210, 117, 1);
-    padding: 0;
-}
-
-#wordcloud img {
-    width: 100%;
-    margin: 0;
-}
-
-.hide {
-    display: none;
-}
-
 #menu {
     height: 500px;
     width: 700px;
@@ -25,10 +6,22 @@
     position: relative;
 }
 
+.hide {
+    display: none;
+}
+
 .menu-item {
     position: absolute;
     height: 20%;
     width: 20%;
+    background-image: url("https://www.pexels.com/photo/animal-cat-face-close-up-feline-416160/");
+    border: 1px dashed black;
+}
+
+.menu-filler {
+    position: absolute;
+    height: 10%;
+    width: 10%;
     background-image: url("https://www.pexels.com/photo/animal-cat-face-close-up-feline-416160/");
     border: 1px dashed black;
 }
@@ -67,26 +60,26 @@
 }
 
 #item-5 {
-    left: 10%;
-    top: 10%;
+    left: 20%;
+    top: 20%;
     border-radius: 0 50%;
 }
 
 #item-6 {
-    right: 10%;
-    top: 10%;
+    right: 20%;
+    top: 20%;
     border-radius: 50% 0;
 }
 
 #item-7 {
-    left: 10%;
-    bottom: 10%;
+    left: 20%;
+    bottom: 20%;
     border-radius: 50% 0;
 }
 
 #item-8 {
-    right: 10%;
-    bottom: 10%;
+    right: 20%;
+    bottom: 20%;
     border-radius: 0 50%;
 }
 

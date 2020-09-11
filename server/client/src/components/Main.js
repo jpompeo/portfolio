@@ -7,14 +7,16 @@ import Demo from './Demo';
 import Cohort from "./Cohort";
 import WordCloud from '../assets/wordcloud.jpg';
 import styled, { keyframes } from 'styled-components';
-import { bounce } from 'react-animations';
+import { merge, bounceIn, fadeIn, zoomIn } from 'react-animations';
 
-const bounceAnimation = keyframes`${bounce}`;
-
+const zoomAnimation = keyframes`${zoomIn}`;
+const ZoomyDiv = styled.div`
+  animation: 1s ${zoomAnimation};
+`;
+const bounceAnimation = keyframes`${bounceIn}`;
 const BouncyDiv = styled.div`
   animation: 1s ${bounceAnimation};
 `;
-
 
 
 class Main extends Component {
@@ -44,37 +46,37 @@ class Main extends Component {
                         id="menu-center"
                         onClick={event => {this.toggleMenu()}}
                     >
-
+                       
                     </div>
 
                     <div 
                         id="menu-items" 
                         className={this.state.menuOpen === true ? "" : "hide"}
                     >
-                        <div id="item-1" className="menu-item">
+                        <BouncyDiv id="item-1" className="menu-item">
 
-                        </div>
-                        <div id="item-2" className="menu-item">
+                        </BouncyDiv>
+                        <BouncyDiv id="item-2" className="menu-item">
 
-                        </div>
-                        <div id="item-3" className="menu-item">
+                        </BouncyDiv>
+                        <BouncyDiv id="item-3" className="menu-item">
 
-                        </div>
-                        <div id="item-4" className="menu-item">
+                        </BouncyDiv>
+                        <BouncyDiv id="item-4" className="menu-item">
 
-                        </div>
-                        <div id="item-5" className="menu-item">
+                        </BouncyDiv>
+                        <ZoomyDiv id="item-5" className="menu-filler">
 
-                        </div>
-                        <div id="item-6" className="menu-item">
+                        </ZoomyDiv>
+                        <ZoomyDiv id="item-6" className="menu-filler">
 
-                        </div>
-                        <div id="item-7" className="menu-item">
+                        </ZoomyDiv>
+                        <ZoomyDiv id="item-7" className="menu-filler">
 
-                        </div>
-                        <div id="item-8" className="menu-item">
+                        </ZoomyDiv>
+                        <ZoomyDiv id="item-8" className="menu-filler">
 
-                        </div>
+                        </ZoomyDiv>
                     </div>
                 </div>
 
