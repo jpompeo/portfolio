@@ -7,15 +7,32 @@ import Demo from './Demo';
 import Cohort from "./Cohort";
 import WordCloud from '../assets/wordcloud.jpg';
 import styled, { keyframes } from 'styled-components';
-import { merge, bounceIn, fadeIn, zoomIn } from 'react-animations';
+import { merge, bounceIn, fadeIn, zoomIn, rotateIn, fadeOut } from 'react-animations';
+import Overdrive from 'react-overdrive';
 
+//animations
 const zoomAnimation = keyframes`${zoomIn}`;
+const bounceInAnimation = keyframes`${bounceIn}`;
+const rotateAnimation = keyframes`${rotateIn}`;
+const fadeInAnimation = keyframes`${fadeIn}`;
+const fadeOutAnimation = keyframes`${fadeOut}`;
+
+//animated styled divs
 const ZoomyDiv = styled.div`
   animation: 1s ${zoomAnimation};
 `;
-const bounceAnimation = keyframes`${bounceIn}`;
+
+const FadeyDiv = styled.div`
+  animation: 1s ${fadeInAnimation};
+`;
+
 const BouncyDiv = styled.div`
-  animation: 1s ${bounceAnimation};
+  animation: 1s ${bounceInAnimation};
+  background-color: green;
+  &:hover {
+    transition: all .3s ease-in-out;
+    transform: scale(1.2);
+  }
 `;
 
 
@@ -42,23 +59,28 @@ class Main extends Component {
             <React.Fragment>
                 <h1>Menu:</h1>
                 <div id="menu">
-                    <div 
+                    <FadeyDiv
                         id="menu-center"
-                        onClick={event => {this.toggleMenu()}}
+                        onClick={event => { this.toggleMenu() }}
+                        className={this.state.menuOpen === true ? "hide" : ""}
                     >
-                       
-                    </div>
 
-                    <div 
-                        id="menu-items" 
+                    </FadeyDiv>
+
+                    <div
+                        id="menu-items"
                         className={this.state.menuOpen === true ? "" : "hide"}
                     >
                         <BouncyDiv id="item-1" className="menu-item">
 
                         </BouncyDiv>
-                        <BouncyDiv id="item-2" className="menu-item">
-
-                        </BouncyDiv>
+                            <Link to="/projects">
+                        <Overdrive id="projects">
+                            <BouncyDiv id="item-2" className="menu-item">
+                                <h2>Projects</h2>
+                            </BouncyDiv>
+                        </Overdrive>
+                            </Link>
                         <BouncyDiv id="item-3" className="menu-item">
 
                         </BouncyDiv>

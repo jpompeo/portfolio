@@ -1,8 +1,9 @@
 #menu {
-    height: 500px;
-    width: 700px;
+    width: 50%;
+    height: 0;
+    padding-bottom: 40%;
     border: 3px solid teal;
-    margin: 0 auto;
+    margin: 30px auto;
     position: relative;
 }
 
@@ -16,6 +17,7 @@
     width: 20%;
     background-image: url("https://www.pexels.com/photo/animal-cat-face-close-up-feline-416160/");
     border: 1px dashed black;
+    border-radius: 20px;
 }
 
 .menu-filler {
@@ -39,24 +41,20 @@
 
 #item-1 {
     left: 40%;
-    border-radius: 50%;
 }
 
 #item-2 {
     top: 40%;
-    border-radius: 50%;
 }
 
 #item-3 {
     top: 40%;
     right: 0;
-    border-radius: 50%;
 }
 
 #item-4 {
     left: 40%;
     bottom: 0;
-    border-radius: 50%;
 }
 
 #item-5 {
