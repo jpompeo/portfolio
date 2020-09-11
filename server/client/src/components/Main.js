@@ -45,26 +45,35 @@ class Main extends Component {
         }
     }
 
-    toggleMenu = () => {
-        if (this.state.menuOpen === false) {
+    toggleMenuOpen = () => {
             this.setState({ menuOpen: true })
-        } else {
-            this.setState({ menuOpen: false })
-        }
     }
+
+    toggleMenuClosed = () => {
+        this.setState({ menuOpen: false })
+}
 
     renderMenu = () => {
 
         return (
             <React.Fragment>
-                <h1>Menu:</h1>
-                <div id="menu">
+                <div 
+                    id="menu"
+                    onMouseOver={event => { this.toggleMenuOpen() }}
+                    onMouseLeave={event => { this.toggleMenuClosed() }}
+                >
                     <FadeyDiv
                         id="menu-center"
-                        onClick={event => { this.toggleMenu() }}
-                        className={this.state.menuOpen === true ? "hide" : ""}
+                        
+                    // className={this.state.menuOpen === true ? "hide" : ""}
                     >
-
+                        <div 
+                            id="menu-center-content"
+                            // onMouseEnter={event => { this.toggleMenu() }}
+                        >
+                            <h1 id="menu-name">Joanna Pompeo</h1>
+                            <h2 id="menu-title">Full Stack Software Engineer</h2>
+                        </div>
                     </FadeyDiv>
 
                     <div
@@ -73,29 +82,29 @@ class Main extends Component {
                     >
 
                         {/* Top */}
-                        <BouncyDiv id="item-1" className="menu-item">
+                        <ZoomyDiv id="item-1" className="menu-item">
 
-                        </BouncyDiv>
+                        </ZoomyDiv>
 
                         {/* Left */}
                         <Link to="/about">
-                                <BouncyDiv id="item-2" className="menu-item">
-                                    <h2>About</h2>
-                                </BouncyDiv>
+                            <ZoomyDiv id="item-2" className="menu-item">
+                                <h2>About</h2>
+                            </ZoomyDiv>
                         </Link>
 
                         {/* Right */}
                         <Link to="/projects">
-                                <BouncyDiv id="item-3" className="menu-item">
-                                    <h2>Projects</h2>
-                                </BouncyDiv>
+                            <ZoomyDiv id="item-3" className="menu-item">
+                                <h2>Projects</h2>
+                            </ZoomyDiv>
                         </Link>
 
                         {/* Bottom */}
                         <Link to="/contact">
-                                <BouncyDiv id="item-4" className="menu-item">
-                                    <h2>Contact</h2>
-                                </BouncyDiv>
+                            <ZoomyDiv id="item-4" className="menu-item">
+                                <h2>Contact</h2>
+                            </ZoomyDiv>
                         </Link>
 
                         {/* Spacers - Empty menu items */}

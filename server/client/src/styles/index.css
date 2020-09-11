@@ -1,5 +1,6 @@
 body {
-    background-color: rgba(252, 225, 129, 1);
+    background-color: rgb(255, 252, 239);
+    /* background-color: rgba(253, 236, 176, .4); */
     font-family: 'Lexend Peta', sans-serif;
     color: rgba(125, 120, 101, 1);
 }

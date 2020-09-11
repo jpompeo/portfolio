@@ -1,33 +1,59 @@
 #bio {
     /* border: 5px solid rgba(253, 236, 176, .7); */
     padding: 20px;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     border-radius: 5px;
-    width: 80%;
+    width: 60%;
+    min-width: 400px;
     margin: 20px auto;
-    background-color: rgba(253, 236, 176, .4);
-    border: 5px solid rgba(253, 236, 176 , .3);
-    box-shadow: 3px 3px 7px rgba(125, 120, 101, .2);
+    /* background-color: rgba(253, 236, 176, .9); */
+    /* background-color: rgba(252, 225, 129, 1); */
+    /* border: 5px solid rgba(253, 236, 176 , .3); */
+    /* box-shadow: 3px 3px 7px rgba(125, 120, 101, .2); */
 }
 
 #headshot {
     box-sizing: border-box;
-    width: 45%;
-    float: left;
-    margin: 0 15px 10px 0;
-    border-radius: 5px;
+    display: inline-block;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 50px 50px 5px 5px;
     box-shadow: 3px 3px 7px rgba(48, 49, 49, .3);
-    border: solid .5px rgba(158, 154, 140, .8);
-    padding: .5px;
+    border: 1px solid rgba(158, 154, 140, .7); 
+    background-color: rgba(122, 101, 24, 0.7);
+    /* border: solid 1px rgba(158, 154, 140, .4); */
+    /* padding: .5px; */
     /* outline: 1px solid rgba(125, 120, 101, .2); */
-    background-color: rgba(158, 154, 140, .8);
+    /* background-color: rgba(158, 154, 140, .8); */
 }
 
 
-.bio-text {
-    /* display: inline-block; */
+#bio-text {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
     text-indent: 10%;
     text-align: justify;
+    font-size: 14px;
+    background-color: rgba(252, 225, 129, 1); 
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px 5px 50px 50px;
+    border: 1.5px solid rgba(158, 154, 140, .5); 
+    box-shadow: 3px 3px 7px rgba(48, 49, 49, .3);
+}
+
+#bio-title {
+    font-size: 20px;
+    /* margin: 0 20px; */
+    text-align: right;
+    background-color: rgba(158, 154, 140, 1);
+    box-shadow: 3px 3px 7px rgba(48, 49, 49, .3);
+    text-shadow: 2px 2px 3px rgba(48, 49, 49, .2);
+    padding: 13px 7px;
+    border-radius: 5px;
+    color: rgba(252, 225, 129, 1);
+    margin: 0;
 }
 
 /* .first-paragraph {

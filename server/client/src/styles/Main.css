@@ -5,6 +5,8 @@
     border: 3px solid teal;
     margin: 30px auto;
     position: relative;
+    min-width: 400px;
+    min-height: 350px;
 }
 
 .hide {
@@ -13,11 +15,13 @@
 
 .menu-item {
     position: absolute;
-    height: 20%;
+    display: table;
+    height: 15%;
     width: 20%;
     background-image: url("https://www.pexels.com/photo/animal-cat-face-close-up-feline-416160/");
     border: 1px dashed black;
-    border-radius: 20px;
+    border-radius: 45%;
+    background-color: rgba(252, 225, 129, 1); 
 }
 
 .menu-filler {
@@ -26,17 +30,32 @@
     width: 10%;
     background-image: url("https://www.pexels.com/photo/animal-cat-face-close-up-feline-416160/");
     border: 1px dashed black;
+    background-color: rgba(252, 225, 129, 1); 
 }
 
 #menu-center {
     background-image: url("https://www.pexels.com/photo/animal-cat-face-close-up-feline-416160/");
     position: absolute;
-    height: 20%;
-    width: 20%;
+    display: table;
+    height: 30%;
+    width: 50%;
     background-image: url("https://www.pexels.com/photo/animal-cat-face-close-up-feline-416160/");
     border: 1px dashed black;
-    left: 40%;
-    top: 40%;
+    border-radius: 47%;
+    left: 25%;
+    top: 35%;
+    background-color: rgba(252, 225, 129, 1); 
+}
+
+#menu-name {
+    text-align: center;
+    font-size: 2vw;
+}
+
+#menu-title {
+    font-size: 15px;
+    text-align: center;
+    font-size: 1vw;
 }
 
 #item-1 {
@@ -44,11 +63,11 @@
 }
 
 #item-2 {
-    top: 40%;
+    top: 42.5%;
 }
 
 #item-3 {
-    top: 40%;
+    top: 42.5%;
     right: 0;
 }
 
@@ -58,26 +77,43 @@
 }
 
 #item-5 {
-    left: 20%;
-    top: 20%;
-    border-radius: 0 50%;
+    left: 15%;
+    top: 15%;
+    border-radius: 0 50% 50%;
 }
 
 #item-6 {
-    right: 20%;
-    top: 20%;
-    border-radius: 50% 0;
+    right: 15%;
+    top: 15%;
+    border-radius: 50% 0 50% 50%;
 }
 
 #item-7 {
-    left: 20%;
-    bottom: 20%;
-    border-radius: 50% 0;
+    left: 15%;
+    bottom: 15%;
+    border-radius: 50% 50% 50% 0;
 }
 
 #item-8 {
-    right: 20%;
-    bottom: 20%;
-    border-radius: 0 50%;
+    right: 15%;
+    bottom: 15%;
+    border-radius: 50% 50% 0 50%;
 }
+
+.menu-item h2 {
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 20%;
+    width: 20%;
+    height: 20%;
+    text-align: center;
+    font-size: 18px;
+}
+
+#menu-center-content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
 

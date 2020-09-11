@@ -17,7 +17,7 @@ const App = () => {
     <React.Fragment>
 
       {/* Header navigation */}
-      < Header />
+      {/* < Header /> */}
 
       <Container fluid id="app-view">
         <Row>
