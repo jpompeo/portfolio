@@ -12,3 +12,81 @@
     width: 100%;
     margin: 0;
 }
+
+.hide {
+    display: none;
+}
+
+#menu {
+    height: 500px;
+    width: 700px;
+    border: 3px solid teal;
+    margin: 0 auto;
+    position: relative;
+}
+
+.menu-item {
+    position: absolute;
+    height: 20%;
+    width: 20%;
+    background-image: url("https://www.pexels.com/photo/animal-cat-face-close-up-feline-416160/");
+    border: 1px dashed black;
+}
+
+#menu-center {
+    background-image: url("https://www.pexels.com/photo/animal-cat-face-close-up-feline-416160/");
+    position: absolute;
+    height: 20%;
+    width: 20%;
+    background-image: url("https://www.pexels.com/photo/animal-cat-face-close-up-feline-416160/");
+    border: 1px dashed black;
+    left: 40%;
+    top: 40%;
+}
+
+#item-1 {
+    left: 40%;
+    border-radius: 50%;
+}
+
+#item-2 {
+    top: 40%;
+    border-radius: 50%;
+}
+
+#item-3 {
+    top: 40%;
+    right: 0;
+    border-radius: 50%;
+}
+
+#item-4 {
+    left: 40%;
+    bottom: 0;
+    border-radius: 50%;
+}
+
+#item-5 {
+    left: 10%;
+    top: 10%;
+    border-radius: 0 50%;
+}
+
+#item-6 {
+    right: 10%;
+    top: 10%;
+    border-radius: 50% 0;
+}
+
+#item-7 {
+    left: 10%;
+    bottom: 10%;
+    border-radius: 50% 0;
+}
+
+#item-8 {
+    right: 10%;
+    bottom: 10%;
+    border-radius: 0 50%;
+}
+
