@@ -71,22 +71,34 @@ class Main extends Component {
                         id="menu-items"
                         className={this.state.menuOpen === true ? "" : "hide"}
                     >
+
+                        {/* Top */}
                         <BouncyDiv id="item-1" className="menu-item">
 
                         </BouncyDiv>
-                            <Link to="/projects">
-                        <Overdrive id="projects">
-                            <BouncyDiv id="item-2" className="menu-item">
-                                <h2>Projects</h2>
-                            </BouncyDiv>
-                        </Overdrive>
-                            </Link>
-                        <BouncyDiv id="item-3" className="menu-item">
 
-                        </BouncyDiv>
-                        <BouncyDiv id="item-4" className="menu-item">
+                        {/* Left */}
+                        <Link to="/about">
+                                <BouncyDiv id="item-2" className="menu-item">
+                                    <h2>About</h2>
+                                </BouncyDiv>
+                        </Link>
 
-                        </BouncyDiv>
+                        {/* Right */}
+                        <Link to="/projects">
+                                <BouncyDiv id="item-3" className="menu-item">
+                                    <h2>Projects</h2>
+                                </BouncyDiv>
+                        </Link>
+
+                        {/* Bottom */}
+                        <Link to="/contact">
+                                <BouncyDiv id="item-4" className="menu-item">
+                                    <h2>Contact</h2>
+                                </BouncyDiv>
+                        </Link>
+
+                        {/* Spacers - Empty menu items */}
                         <ZoomyDiv id="item-5" className="menu-filler">
 
                         </ZoomyDiv>

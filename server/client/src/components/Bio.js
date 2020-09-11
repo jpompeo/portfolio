@@ -1,10 +1,14 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import '../styles/Bio.css';
 import JoannaHeadshot from '../assets/headshot1.jpg';
-
+import Overdrive from 'react-overdrive';
 
 const Bio = () => {
     return (
+        <React.Fragment>
+            <Link to="/home">back to menu</Link>
+
         <div id="bio">
 
             {/* Headshot */}
@@ -19,6 +23,8 @@ const Bio = () => {
             </p>
 
         </div>
+            
+        </React.Fragment>
     )
 }
 
