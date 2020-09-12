@@ -46,33 +46,37 @@ class Main extends Component {
     }
 
     toggleMenuOpen = () => {
-            this.setState({ menuOpen: true })
+        this.setState({ menuOpen: true })
     }
 
     toggleMenuClosed = () => {
         this.setState({ menuOpen: false })
-}
+    }
 
     renderMenu = () => {
 
         return (
             <React.Fragment>
-                <div 
+                <div
                     id="menu"
-                    // onMouseOver={event => { this.toggleMenuOpen() }}
-                    // onMouseLeave={event => { this.toggleMenuClosed() }}
+                // onMouseOver={event => { this.toggleMenuOpen() }}
+                // onMouseLeave={event => { this.toggleMenuClosed() }}
                 >
                     <FadeyDiv
                         id="menu-center"
-                        
+
                     // className={this.state.menuOpen === true ? "hide" : ""}
                     >
-                        <div 
+                        <div
                             id="menu-center-content"
-                            // onMouseEnter={event => { this.toggleMenu() }}
+                        // onMouseEnter={event => { this.toggleMenu() }}
                         >
                             <h1 id="menu-name">Joanna Pompeo</h1>
-                            <h2 id="menu-title">Full Stack Software Engineer</h2>
+                            <h2 id="menu-title">
+                                Full Stack
+                                <br />
+                                Software Engineer
+                            </h2>
                         </div>
                     </FadeyDiv>
 
