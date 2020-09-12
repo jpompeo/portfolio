@@ -21,15 +21,13 @@ const Bio = () => {
                     {/* Headshot */}
                     <div id="headshot-container">
                         <img id="headshot" src={JoannaHeadshot} alt="Joanna Headshot" />
-
-                        {/* <h1 id="bio-title-1">Joanna Pompeo</h1> */}
                     </div>
                 </Col>
 
                 <Col md={6}>
                     {/* Bio */}
                     <div id="bio-text-container">
-                        <h1 id="bio-title-2">Bio</h1>
+                        <h1 id="bio-title">Bio</h1>
                         <div id="bio-text">
                             <p className="first-paragraph">
                                 Full Stack Software Engineer with a background in Team Leadership and Customer Service. My past experience has given me opportunities to enhance my communication skills and collaborate with diverse teams, as well as helping me strengthen my ability to keep a calm and positive attitude even in high-pressure situations.
