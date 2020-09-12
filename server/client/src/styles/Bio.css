@@ -23,11 +23,12 @@
     box-sizing: border-box;
     display: inline-block;
     width: 80%;
+    opacity: 95%;
     max-width: 600px;
     margin: 20px auto;
     /* z-index: -1; */
     border-radius: 5px;
-    box-shadow: 3px 3px 7px rgba(125, 120, 101, .3);
+    box-shadow: 3px 3px 7px rgba(82, 34, 56, .3);
     border: 1px solid rgba(125, 120, 101, .3); 
     background-color: rgba(125, 120, 101, .3);
     /* border: solid 1px rgba(158, 154, 140, .4); */
@@ -40,7 +41,7 @@
     position: relative;
     background-color: rgba(252, 225, 129, 1);
     /* border: 1.5px solid rgba(158, 154, 140, .5);  */
-    box-shadow: 3px 3px 7px rgba(125, 120, 101, .3);
+    box-shadow: 3px 3px 7px rgba(82, 34, 56, .3);
     padding: 0;
     border-radius: 5px 50px;
     margin: 20px auto;

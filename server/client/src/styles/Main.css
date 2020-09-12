@@ -18,24 +18,26 @@
     height: 15%;
     width: 20%;
     border-radius: 45%;
-    background-color: rgba(252, 225, 129, .8);
-    border: 5px solid rgba(252, 220, 104 , 1);
-    box-shadow: 3px 3px 7px rgba(125, 120, 101, .3);
+    box-shadow: 3px 3px 7px rgba(82, 34, 56, .3);
+    background-color: rgba(252, 220, 104 , .5);
+    border: 4px solid rgba(252, 220, 104 , .75);
 }
 
 .menu-item:hover {
     transition: all .3s ease-in-out;
     transform: scale(1.2);
-    background-color: rgba(252, 225, 129, .9);
+    background-color: rgba(252, 220, 104 , .7);
+    border: 4px solid rgba(252, 220, 104 , .5);
 }
 
 .menu-filler {
     position: absolute;
     height: 10%;
     width: 10%;
-    background-color: rgba(252, 225, 129, .9); 
-    box-shadow: 3px 3px 7px rgba(125, 120, 101, .3);
-    border: 5px solid rgba(252, 220, 104 , 1);
+    /* background-color: rgba(252, 225, 129, .9);  */
+    box-shadow: 3px 3px 7px rgba(82, 34, 56, .3);
+    background-color: rgba(252, 220, 104 , .5);
+    border: 5px solid rgba(252, 220, 104 , .75);
 }
 
 #menu-center {
@@ -47,19 +49,18 @@
     left: 25%;
     top: 25%;
     /* color: rgba(252, 225, 129, 1);  */
-    color: rgba(252, 220, 104 , .9);
-    background-color: rgba(158, 154, 140, .8);
-    background-color: rgba(94, 90, 76, .6);
-    border: 5px solid rgba(125, 120, 101, 1);
-    box-shadow: 3px 3px 7px rgba(125, 120, 101, .3);
+    color: rgba(252, 220, 104 , .7);
+    background-color: rgba(94, 40, 65, .9);
+    border: 5px solid rgba(82, 34, 56, 1);
+    box-shadow: 3px 3px 7px rgba(82, 34, 56, .3);
 }
 
 #menu-name {
     text-align: center;
-    font-family: 'Gabriela', 'Lexend Peta', sans-serif;
-    font-size:  26px;
+    /* font-family: 'Vollkorn SC', 'Lexend Peta', sans-serif; */
+    font-size:  22px;
     font-weight: 400;
-    /* font-variant: small-caps; */
+    font-variant: small-caps;
     letter-spacing: 1px;
     /* font-weight: 600; */
     /* text-shadow: 2px 2px 3px rgba(48, 49, 49, .1); */
@@ -67,10 +68,11 @@
 
 #menu-title {
     text-align: center;
-    font-size:  12px;
-    font-weight: 700;
+    font-size:  14px;
+    font-weight: bold;
+    font-variant: small-caps;
     letter-spacing: 1px;
-    color: rgba(94, 90, 76, .8);
+    color: rgba(158, 82, 117, 1);
     line-height: 2;
     /* text-shadow: 2px 2px 3px rgba(94, 90, 76, .1); */
 }
@@ -134,8 +136,11 @@
     width: 20%;
     height: 20%;
     text-align: center;
-    font-size: 15px;
-    color: rgba(125, 120, 101, 1);
+    font-size: 14px;
+    color: rgba(158, 82, 117, 1);
+    color: rgba(94, 40, 65, .9);
+    font-weight: bold;
+    /* font-variant: small-caps; */
 }
 
 #menu-center-content {
