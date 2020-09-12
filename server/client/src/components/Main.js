@@ -82,9 +82,11 @@ class Main extends Component {
                     >
 
                         {/* Top */}
-                        <ZoomyDiv id="item-1" className="menu-item">
-
-                        </ZoomyDiv>
+                        <Link to="/projects">
+                            <ZoomyDiv id="item-1" className="menu-item">
+                                <h2>Projects</h2>
+                            </ZoomyDiv>
+                        </Link>
 
                         {/* Left */}
                         <Link to="/about">
@@ -94,16 +96,16 @@ class Main extends Component {
                         </Link>
 
                         {/* Right */}
-                        <Link to="/projects">
+                        <Link to="/contact">
                             <ZoomyDiv id="item-3" className="menu-item">
-                                <h2>Projects</h2>
+                                <h2>Contact</h2>
                             </ZoomyDiv>
                         </Link>
 
                         {/* Bottom */}
-                        <Link to="/contact">
+                        <Link to="/resume">
                             <ZoomyDiv id="item-4" className="menu-item">
-                                <h2>Contact</h2>
+                                <h2>Resume</h2>
                             </ZoomyDiv>
                         </Link>
 

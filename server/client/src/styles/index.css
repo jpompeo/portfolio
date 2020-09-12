@@ -4,3 +4,19 @@ body {
     font-family: 'Lexend Peta', sans-serif;
     color: rgba(125, 120, 101, 1);
 }
+
+.back-button {
+    background-color: rgba(252, 225, 129, .7);
+    color: rgba(125, 120, 101, 1);
+    border-radius: 3px 20px; 
+    margin: 20px;
+    box-shadow: 3px 3px 7px rgba(48, 49, 49, .3);
+    border: 5px solid rgba(252, 220, 104 , 1);
+}
+
+.back-button:hover {
+    color: rgba(252, 225, 129, 1);
+    background-color: rgba(125, 120, 101, 1);
+    transition: all .3s ease-in-out;
+    transform: scale(1.1);
+}
