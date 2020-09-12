@@ -41,7 +41,7 @@ class Main extends Component {
         super(props);
 
         this.state = {
-            menuOpen: false
+            menuOpen: true
         }
     }
 
@@ -59,8 +59,8 @@ class Main extends Component {
             <React.Fragment>
                 <div 
                     id="menu"
-                    onMouseOver={event => { this.toggleMenuOpen() }}
-                    onMouseLeave={event => { this.toggleMenuClosed() }}
+                    // onMouseOver={event => { this.toggleMenuOpen() }}
+                    // onMouseLeave={event => { this.toggleMenuClosed() }}
                 >
                     <FadeyDiv
                         id="menu-center"

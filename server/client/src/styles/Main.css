@@ -21,7 +21,7 @@
     background-image: url("https://www.pexels.com/photo/animal-cat-face-close-up-feline-416160/");
     border: 1px dashed black;
     border-radius: 45%;
-    background-color: rgba(252, 225, 129, 1); 
+    background-color: rgba(252, 225, 129, 1);
 }
 
 .menu-filler {
@@ -49,14 +49,24 @@
 
 #menu-name {
     text-align: center;
-    font-size: 2vw;
+    font-size:  20px;
+    font-variant: small-caps;
 }
 
 #menu-title {
-    font-size: 15px;
     text-align: center;
-    font-size: 1vw;
+    font-size:  10px;
 }
+
+  @media screen and (min-width: 1600px) {
+    #menu-name {
+       font-size: 2vw;
+    }
+
+    #menu-title {
+        font-size: 1vw;
+    }
+  }
 
 #item-1 {
     left: 40%;
@@ -107,7 +117,7 @@
     width: 20%;
     height: 20%;
     text-align: center;
-    font-size: 18px;
+    font-size: 75%;
 }
 
 #menu-center-content {
