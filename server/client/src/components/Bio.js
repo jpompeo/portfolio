@@ -26,7 +26,7 @@ const Bio = () => {
 
                 <Col md={6}>
                     {/* Bio */}
-                    <div id="bio-text-container">
+                    {/* <div id="bio-text-container"> */}
                         <h1 id="bio-title">Bio</h1>
                         <div id="bio-text">
                             <p className="first-paragraph">
@@ -36,7 +36,7 @@ const Bio = () => {
                                 My desire for growth and new challenges, combined with a love for learning, problem-solving, and creativity led me down the path of technology. In the past year I have discovered a passion for programming and have dedicated myself to building my skills and investing in my education in order to make this career shift into Software Engineering. I am loving what I’m doing and excited to bring my passion and experience with me on this journey.
                         </p>
                         </div>
-                    </div>
+                    {/* </div> */}
                 </Col>
             </Row>
         </Container>
