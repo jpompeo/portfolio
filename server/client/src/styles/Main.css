@@ -18,7 +18,7 @@
     height: 15%;
     width: 20%;
     border-radius: 50%;
-    box-shadow: 3px 3px 7px rgba(12, 11, 22, .3);
+    box-shadow: 2px 2px 8px rgba(69, 71, 74, .18);
     background-color: rgba(252, 220, 104 , .5);
     border: 4px solid rgba(252, 220, 104 , .5);
 }
@@ -35,7 +35,7 @@
     height: 10%;
     width: 10%;
     /* background-color: rgba(252, 225, 129, .9);  */
-    box-shadow: 3px 3px 7px rgba(12, 11, 22, .3);
+    box-shadow: 2px 2px 8px rgba(69, 71, 74, .18);
     background-color: rgba(252, 220, 104 , .5);
     border: 5px solid rgba(252, 220, 104 , .75);
 }
@@ -50,10 +50,9 @@
     top: 25%;
     /* color: rgba(252, 225, 129, 1);  */
     color: rgba(252, 220, 104 , .6);
-    border: 5px solid rgba(12, 11, 22, 1);
-    box-shadow: 3px 3px 7px rgba(12, 11, 22, .3);
-    background-color: rgba(12, 11, 22, .4);
-    border: 5px solid rgba(12, 11, 22, .3);
+    box-shadow: 2px 2px 8px rgba(69, 71, 74, .18);
+    background-color: rgba(69, 71, 74, .6);
+    border: 5px solid rgba(69, 71, 74, 1);
 }
 
 #menu-name {
@@ -75,7 +74,7 @@
     letter-spacing: 1px;
     line-height: 2;
     /* text-shadow: 3px 3px 5px rgba(82, 34, 56, .5); */
-    color: rgba(12, 11, 22, .5);
+    color: rgba(69, 71, 74, 1);
 }
 
   @media screen and (min-width: 1600px) {
@@ -140,7 +139,7 @@
     font-size: 15px;
     font-weight: bold;
     font-variant: small-caps;
-    color: rgba(12, 11, 22, .5);
+    color: rgba(69, 71, 74, .8);
 }
 
 #menu-center-content {
