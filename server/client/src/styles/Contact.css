@@ -1,0 +1,88 @@
+#contact {
+    /* border: 5px solid rgba(253, 236, 176, .7); */
+    padding: 15px 50px 75px;
+    /* overflow-y: hidden; */
+    border-radius: 3px;
+    width: 80%;
+    min-width: 400px;
+    max-width: 1600px;
+    margin: 20px auto 40px;
+    /* background-color: rgba(69, 71, 74, 1); */
+    /* background-color: rgba(253, 236, 176, .9); */
+    /* background-color: rgba(252, 225, 129, 1); */
+    /* border: 5px solid rgba(253, 236, 176 , .3); */
+    /* box-shadow: 3px 3px 7px rgba(125, 120, 101, .2); */
+    background-color: rgba(1, 161, 167, .1);
+}
+
+
+#contact-list-container {
+    padding: 0;
+    border-radius: 3px;
+    text-align: center;
+    margin: 5px 0;
+    background-color: rgba(1, 161, 167, 1);
+    width: 100%;
+}
+
+#contact-text {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    text-indent: 10%;
+    text-align: justify;
+    font-size: 14px;
+    color: rgba(245, 245, 245, .9);
+    margin: 0 auto;
+    padding: 20px 20px 0;
+    border-radius: 3px;
+}
+
+#contact-title {
+    font-size: 20px;
+    font-variant: small-caps;
+    color: rgba(92, 94, 97, 1);
+    margin: 0 0 20px;
+    width: 100%;
+    border-radius: 3px;
+    text-align: right;
+}
+
+#contact-title h1 {
+    font-size: 20px;
+    background-color: rgba(252, 220, 104 , .7);
+    display: inline-block;
+    padding: 7px 20px;
+    width: 10em;
+    margin: 0 -80px 0 0;
+}
+
+#contact-list  {
+    list-style: none;
+    padding: 0;
+}
+
+#contact-list li {
+    display: inline-block;
+    margin: 20px;
+    color: rgba(245, 245, 245, .9);
+}
+
+.contact-header {
+    font-size: 18px;
+    font-variant: small-caps;
+}
+
+.contact-info {
+    font-size: 12px;
+}
+
+#contact a {
+    color: rgba(69, 71, 74, 1);
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: rgba(245, 245, 245, .9);
+}
+
