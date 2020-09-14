@@ -2,12 +2,13 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 import { Row, Col, Container } from "react-bootstrap";
 import Main from './Main';
-import Header from './Header';
+import HeaderNav from './HeaderNav';
 import Bio from './Bio';
 import Demo from './Demo';
 import Cohort from './Cohort';
 import Projects from './Projects';
 import Contact from './Contact';
+import Home from './Home';
 
 
 import "../styles/App.css";
@@ -17,7 +18,7 @@ const App = () => {
     <React.Fragment>
 
       {/* Header navigation */}
-      {/* < Header /> */}
+      < HeaderNav />
 
       <Container fluid id="app-view">
         <Row>
@@ -27,7 +28,8 @@ const App = () => {
             <Switch>
 
               {/* Default view */}
-              <Route exact path={["/", "/home"]} component={Main} />
+              <Route exact path={["/", "/home"]} component={Home} />
+              <Route exact path={"/main"} component={Main} />
 
               {/* Bio */}
               <Route exact path="/about" component={Bio} />

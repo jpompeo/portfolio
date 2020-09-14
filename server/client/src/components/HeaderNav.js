@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Row, Col, Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
-import '../styles/Header.css'
+import '../styles/HeaderNav.css'
 
-const Header = () => {
+const HeaderNav = () => {
   return (
     <header id="header-nav">
 
 
       <Navbar collapseOnSelect expand="lg">
-        <Navbar.Brand href="/home" id="logo">
+        <Navbar.Brand href="" id="logo">
           <span id="header-name">Joanna Pompeo </span>
           <br/> 	
          <span id="header-title">  Full Stack Software Engineer </span>
@@ -56,4 +56,4 @@ const Header = () => {
   )
 }
 
-export default Header;
+export default HeaderNav;
