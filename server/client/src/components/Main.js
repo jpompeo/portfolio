@@ -109,7 +109,7 @@ class Main extends Component {
                         {/* Bottom */}
                         <Link to="/resume">
                             <ZoomyDiv id="item-4" className="menu-item">
-                                <h2>Resume</h2>
+                                <h2>Resum&eacute;</h2>
                             </ZoomyDiv>
                         </Link>
 
