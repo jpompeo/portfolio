@@ -15,24 +15,37 @@
 }
 
 #header-nav a:hover {
-    color: rgba(252, 220, 104 , 1)
+    color: rgba(252, 220, 104 , .9)
 }
 
 #logo {
-    color: rgba(92, 94, 97, 1);
+    color: rgba(69, 71, 74, 1);
+    /* color: rgba(245, 245, 245, .8); */
     padding: 0;
     margin: 0 0 5px;
     /* margin-top: -5px; */
     line-height: 1.2;
     /* text-align: center; */
+    
 }
 
+.logo-initials {
+    color: #fcdc68e6;
+}
+
+
+
 #header-name {
-    font-size: 22px;
-    font-variant: small-caps;
+    font-size: 28px;
+    /* font-variant: small-caps; */
+    font-family: 'Overlock SC', 'Lexend Peta', sans-serif;
+    letter-spacing: .5px;
 }
 
 #header-title {
     font-size: 13px;
+    letter-spacing: 1px;
+    /* font-variant: small-caps; */
+    
 }
 
