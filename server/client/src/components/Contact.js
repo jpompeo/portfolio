@@ -32,7 +32,7 @@ const Contact = () => {
                                         <p className="contact-header">Email</p>
                                     <div className="contact-icon">
                                         <BsEnvelopeFill
-                                            size="5em"
+                                            size="3em"
                                             // color="rgba(27, 36, 47, .6)"
                                         />
                                     </div>
@@ -44,7 +44,7 @@ const Contact = () => {
                                     <p className="contact-header">Phone</p>
                                     <div className="contact-icon">
                                         <MdPhoneAndroid
-                                            size="5em"
+                                            size="3em"
                                             // color="rgba(27, 36, 47, .6)"
                                         />
                                     </div>
@@ -56,7 +56,7 @@ const Contact = () => {
                                     <p className="contact-header">LinkedIn</p>
                                     <div className="contact-icon">
                                         <FaLinkedin
-                                            size="5em"
+                                            size="3em"
                                             // color="rgba(27, 36, 47, .6)"
                                         />
                                     </div>
@@ -69,7 +69,7 @@ const Contact = () => {
                                     <div className="contact-icon">
                                         <SiGithub
                                             className="contact-icon2"
-                                            size="5em"
+                                            size="3em"
                                             // color="rgba(27, 36, 47, .6)"
                                         />
                                     </div>

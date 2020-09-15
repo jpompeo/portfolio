@@ -5,13 +5,12 @@
     width: 100%;
     margin: 0 0 20px;
     font-family: 'Lexend Peta', sans-serif;
-    box-shadow: 3px 3px 7px rgba(69, 71, 74, .2);
-    /* border-bottom: 5px solid rgba(253, 236, 176 , .4);
-    border-top: 5px solid rgba(253, 236, 176 , .4); */
+    /* box-shadow: 3px 3px 7px rgba(69, 71, 74, .2); */
 }
 
 #header-nav a {
     color: rgba(69, 71, 74, 1);
+    font-size: 15px;
 }
 
 #header-nav a:hover {
