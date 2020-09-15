@@ -26,20 +26,24 @@ const Contact = () => {
                     {/* Bio */}
                     <div id="contact-list-container">
                         <div id="contact-list">
+
+                            {/* Email */}
                             <a href="mailto:joannapompeo@gmail.com">
                                 <div>
                                     {/* <img src="" className="contact-icon" alt="Email icon" /> */}
-                                        <p className="contact-header">Email</p>
                                     <div className="contact-icon">
                                         <BsEnvelopeFill
-                                            size="3em"
+                                            size="3.5em"
                                             // color="rgba(27, 36, 47, .6)"
                                         />
                                     </div>
-                                    <p className="contact-info">joannapompeo@gmail.com</p>
+                                        <p className="contact-header">Email</p>
+                                    {/* <p className="contact-info">joannapompeo@gmail.com</p> */}
                                 </div>
                             </a>
-                            <a href="tel:561-236-1615">
+
+                            {/* Phone */}
+                            {/* <a href="tel:561-236-1615">
                                 <div>
                                     <p className="contact-header">Phone</p>
                                     <div className="contact-icon">
@@ -50,30 +54,34 @@ const Contact = () => {
                                     </div>
                                     <p className="contact-info">561-236-1615</p>
                                 </div>
-                            </a>
+                            </a> */}
+
+                            {/* LinkedIn */}
                             <a href="https://www.linkedin.com/in/joanna-pompeo" target="_blank">
                                 <div>
-                                    <p className="contact-header">LinkedIn</p>
                                     <div className="contact-icon">
                                         <FaLinkedin
-                                            size="3em"
+                                            size="3.5em"
                                             // color="rgba(27, 36, 47, .6)"
                                         />
                                     </div>
-                                    <p className="contact-info">Connect</p>
+                                    <p className="contact-header">LinkedIn</p>
+                                    {/* <p className="contact-info">Connect</p> */}
                                 </div>
                             </a>
+
+                            {/* GitHub */}
                             <a href="https://github.com/jpompeo" target="_blank">
                                 <div>
-                                    <p className="contact-header">GitHub</p>
                                     <div className="contact-icon">
                                         <SiGithub
                                             className="contact-icon2"
-                                            size="3em"
+                                            size="3.5em"
                                             // color="rgba(27, 36, 47, .6)"
                                         />
                                     </div>
-                                    <p className="contact-info">Check out my code</p>
+                                    <p className="contact-header">GitHub</p>
+                                    {/* <p className="contact-info">Check out my code</p> */}
                                 </div>
                             </a>
                         </div>

@@ -1,28 +1,20 @@
 #contact {
-    /* border: 5px solid rgba(253, 236, 176, .7); */
     padding: 15px 50px 75px;
-    /* overflow-y: hidden; */
     border-radius: 3px;
     width: 80%;
     min-width: 400px;
     max-width: 1600px;
     margin: 20px auto 40px;
-    /* background-color: rgba(69, 71, 74, 1); */
-    /* background-color: rgba(253, 236, 176, .9); */
-    /* background-color: rgba(252, 225, 129, 1); */
-    /* border: 5px solid rgba(253, 236, 176 , .3); */
-    /* box-shadow: 3px 3px 7px rgba(125, 120, 101, .2); */
     background-color: rgba(1, 161, 167, .1);
 }
 
 #contact-list-container {
-    padding: 50px 20px;
+    padding: 60px 20px;
     border-radius: 3px;
     text-align: center;
     margin: 5px 0;
     background-color: rgba( 5, 194, 201, 1);
     width: 100%;
-    background-color: rgba(4, 146, 151, 1);
 }
 
 #contact-title {
@@ -52,21 +44,14 @@
 #contact-list div {
     display: inline-block;
     margin: 20px;
-    color: rgba(69, 71, 74, 1);
-    /* color: rgba(245, 245, 245, .9); */
-    /* color: rgba(27, 36, 47, .6); */
-    color: rgba(50, 52, 53, .9);
-    /* font-weight: bold; */
+    color: rgba(69, 71, 74, .9);
     padding: 5px;
 }
 
 #contact-list div:hover {
-    color: rgba(245, 245, 245, .8);
-    /* color: rgba(220,236,237, 1); */
-    /* color: rgba(27, 36, 47, .6); */
+    color: rgba(245, 245, 245, .9);
     font-weight: normal;
-    /* color: rgba(69, 71, 74, 1); */
-    transition: all .4s ease-in-out;
+    transition: all .3s ease-in-out;
     transform: scale(1.15);
     border-radius: 3px;
 }
@@ -80,7 +65,6 @@
 .contact-info {
     font-size: 10px;
     font-weight: bold;
-    /* color: rgba(69, 71, 74, 1); */
 }
 
 #contact-list a {
@@ -90,23 +74,12 @@
 .contact-icon {
     display: inline-block;
     border-radius: 50%;
-    /* color: rgba(92, 94, 97, 1); */
-    /* background-color: rgba(252, 220, 104 , .8); */
-    /* background-color:  rgb(50, 52, 53); */
     border: 3px solid rgba(50, 52, 53, .7);
-    /* border: 3px solid rgba(69, 71, 74, .8); */
-    /* /* background-color: rgba(27, 36, 47, .1); */
-    background-color: rgba(69, 71, 74, .2); 
-    /* background-color: rgba(1, 161, 167, .5); */
+    border: 3px solid rgba(69, 71, 74, .7);
     margin: 10px auto;
     padding: 10px !important;
-    background-color: rgba( 5, 194, 201, .7);
 }
 
-.contact-icon:hover {
-    /* background-color:  rgba(50, 52, 53, .8) !important;
-    border: 3px solid rgba( 5, 194, 201, .8); */
-}
 
 
 
