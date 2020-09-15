@@ -1,58 +1,67 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Row, Col, Container, Button } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 import '../styles/Projects.css';
-import Overdrive from 'react-overdrive';
 
 const Projects = () => {
     return (
-        <React.Fragment>
+        <Container id="projects" fluid>
+            <Row>
+                <Col>
+                    <header id="projects-title">
+                        <h1>Projects</h1>
+                    </header>
+                </Col>
+            </Row>
 
-            <Link to="/home">
-                <Button className="back-button">&larr; menu</Button>
-            </Link>
+            <Row>
+                <Col>
+                    <Container id="projects-list-container">
+                        <Row>
 
-            <Container id="project-list" fluid>
-                <Row>
-                    <Col>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        <div className="project-list-item">
+                            <Col>
+                                <div className="project-list-item">
+                                    Project 1
+                                </div>
+                            </Col>
 
-                        </div>
-                    </Col>
-                    <Col>
-                        <div className="project-list-item">
+                            <Col>
+                                <div className="project-list-item">
+                                    Project 2
+                                </div>
+                            </Col>
 
-                        </div>
-                    </Col>
-                    <Col>
-                        <div className="project-list-item">
+                            <Col>
+                                <div className="project-list-item">
+                                    Project 3
+                                </div>
+                            </Col>
 
-                        </div>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        <div className="project-list-item">
+                        </Row>
+                        <Row>
 
-                        </div>
-                    </Col>
-                    <Col>
-                        <div className="project-list-item">
+                            <Col>
+                                <div className="project-list-item">
+                                    Project 4
+                                </div>
+                            </Col>
 
-                        </div>
-                    </Col>
-                    <Col>
-                        <div className="project-list-item">
+                            <Col>
+                                <div className="project-list-item">
+                                    Project 5
+                                </div>
+                            </Col>
 
-                        </div>
-                    </Col>
-                </Row>
-            </Container>
-        </React.Fragment>
+                            <Col>
+                                <div className="project-list-item">
+                                    Project 6
+                                </div>
+                            </Col>
+
+                        </Row>
+                    </Container>
+                </Col>
+            </Row>
+        </Container >
     )
 }
 

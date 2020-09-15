@@ -11,10 +11,14 @@
 #header-nav a {
     color: rgba(69, 71, 74, 1);
     font-size: 15px;
+    margin: 0 10px;
 }
 
 #header-nav a:hover {
     color: rgba(252, 220, 104 , .9);
+    color: rgba(245, 245, 245, .8);
+    transition: all .3s ease-in-out;
+    transform: scale(1.15);
 }
 
 #logo {
