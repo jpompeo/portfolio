@@ -19,7 +19,7 @@
     /* color: rgba(245, 245, 245, .8); */
     transition: all .3s ease-in-out;
     transform: scale(1.15);
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 #logo {

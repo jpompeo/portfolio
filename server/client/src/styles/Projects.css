@@ -3,7 +3,7 @@
     border-radius: 3px;
     width: 80%;
     min-width: 400px;
-    max-width: 1600px;
+    max-width: 1200px;
     margin: 20px auto 40px;
     background-color: rgba(1, 161, 167, .1);
 }
@@ -24,7 +24,7 @@
     font-variant: small-caps;
     color: rgba(27, 36, 47, .8);
     /* color: rgba(5, 194, 201, .9); */
-    margin: 0 0 20px;
+    margin: 0;
     width: 100%;
     border-radius: 3px;
     text-align: right;
@@ -44,6 +44,7 @@
 .project-list-item {
     border-radius: 3px;
     width: 100%;
+    min-width: 250px;
     height: 250px;
     margin: 20px auto;
     background-color: rgba( 5, 194, 201, .4);
