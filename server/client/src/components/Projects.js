@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col, Container, Button } from "react-bootstrap";
 import '../styles/Projects.css';
+import { projectInfo } from '../data/project-info';
 
 class Projects extends Component {
     constructor(props) {
@@ -21,37 +22,40 @@ class Projects extends Component {
     renderProject = (projectNumber) => {
         const activeProject = this.state.isActive[`project${projectNumber}`];
         console.log("Active project", activeProject);
-        
-            return (
-                <React.Fragment>
-                    {/* Default view */}
-                    <div
-                        className={activeProject ? "static-view hide" : "static-view"}
-                    >
-                        <h2 className="project-list-title">Title</h2>
-                        <p className="project-list-summary">Summary/description</p>
-                    </div>
+        const project = projectInfo[`project${projectNumber}`];
+        console.log(projectInfo);
 
-                    {/* Hover view */}
-                    <div
-                        className={activeProject ? "hover-view" : "hover-view hide"}
-                    >
-                        <h2 className="project-list-type">Type</h2>
-                        <p className="project-list-tech">Technologies</p>
-                    </div>
+        return (
+            <React.Fragment>
+                <h2 className="project-list-title">{project.title}</h2>
 
-                    <img src="" alt="Screenshot of project" />
+                {/* Default view */}
+                <div
+                    className={activeProject ? "static-view hide" : "static-view"}
+                >
+                    <img src={project.imageUrl} alt="Screenshot of project" />
+                    <h2 className="project-list-type">{project.type}</h2>
+                </div>
+
+                {/* Hover view */}
+                <div
+                    className={activeProject ? "hover-view" : "hover-view hide"}
+                >
+                    <p className="project-list-summary">{project.summary}</p>
+                    <p className="project-list-tech">{project.tech}</p>
                     <Button>Learn More</Button>
-                </React.Fragment>
-            )
+                </div>
+
+            </React.Fragment>
+        )
     }
 
     toggleActive = (projectNumber) => {
         console.log("Mouseenter");
         // if (this.state.isActive[`project${projectNumber}`] === false) {
-            const activeProjects = {...this.state.isActive}
-            activeProjects[`project${projectNumber}`] = true;
-            this.setState({isActive: activeProjects});
+        const activeProjects = { ...this.state.isActive }
+        activeProjects[`project${projectNumber}`] = true;
+        this.setState({ isActive: activeProjects });
         // }
     }
 
@@ -80,12 +84,12 @@ class Projects extends Component {
                             <Row>
 
                                 <Col>
-                                <div
-                    className="project-list-item"
-                    onMouseEnter={event => this.toggleActive(1)}
-                    onMouseLeave={event => this.toggleInactive(1)}
-                >
-                                    {this.renderProject(1)}
+                                    <div
+                                        className="project-list-item"
+                                        onMouseEnter={event => this.toggleActive(1)}
+                                        onMouseLeave={event => this.toggleInactive(1)}
+                                    >
+                                        {this.renderProject(1)}
                                     </div>
                                 </Col>
 
