@@ -7,63 +7,20 @@ class Projects extends Component {
     constructor(props) {
         super();
 
-        this.state = {
-            isActive: {
-                project1: false,
-                project2: false,
-                project3: false,
-                project4: false,
-                project5: false,
-                project6: false
-            }
-        }
+
     }
 
     renderProject = (projectNumber) => {
-        const activeProject = this.state.isActive[`project${projectNumber}`];
-        console.log("Active project", activeProject);
-        const project = projectInfo[`project${projectNumber}`];
-        console.log(projectInfo);
+        const project = projectInfo[projectNumber - 1];
 
         return (
-            <React.Fragment>
+            <div className="project-list-item">
                 <h2 className="project-list-title">{project.title}</h2>
-
-                {/* Default view */}
-                <div
-                    className={activeProject ? "static-view hide" : "static-view"}
-                >
-                    <img src={project.imageUrl} alt="Screenshot of project" />
-                    <h2 className="project-list-type">{project.type}</h2>
-                </div>
-
-                {/* Hover view */}
-                <div
-                    className={activeProject ? "hover-view" : "hover-view hide"}
-                >
-                    <p className="project-list-summary">{project.summary}</p>
-                    <p className="project-list-tech">{project.tech}</p>
-                    <Button>Learn More</Button>
-                </div>
-
-            </React.Fragment>
+                <p className="project-list-type">{project.stack} - <em>{project.type}</em></p>
+                <img src={project.imageMain} alt="Screenshot of project" />
+                <Button>Learn More</Button>
+            </div>
         )
-    }
-
-    toggleActive = (projectNumber) => {
-        console.log("Mouseenter");
-        // if (this.state.isActive[`project${projectNumber}`] === false) {
-        const activeProjects = { ...this.state.isActive }
-        activeProjects[`project${projectNumber}`] = true;
-        this.setState({ isActive: activeProjects });
-        // }
-    }
-
-    toggleInactive = (projectNumber) => {
-        console.log("Mouse leave")
-        const activeProjects = { ...this.state.isActive }
-        activeProjects[`project${projectNumber}`] = false;
-        this.setState({ isActive: activeProjects });
     }
 
     render() {
@@ -84,13 +41,8 @@ class Projects extends Component {
                             <Row>
 
                                 <Col>
-                                    <div
-                                        className="project-list-item"
-                                        onMouseEnter={event => this.toggleActive(1)}
-                                        onMouseLeave={event => this.toggleInactive(1)}
-                                    >
-                                        {this.renderProject(1)}
-                                    </div>
+                                    {this.renderProject(1)}
+
                                 </Col>
 
                                 <Col>
