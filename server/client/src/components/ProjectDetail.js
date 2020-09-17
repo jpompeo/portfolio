@@ -12,12 +12,29 @@ const Bio = (props) => {
         //get project number from url path (last character) and subtract 1 for project index
         const projectIndex = Number(props.location.pathname.split('').pop()) - 1;
         const project = projectInfo[projectIndex];
-        
+
         return (
             <Overdrive id={project.id}>
-                <div id="project-detail">
-                    
-                </div>
+                <Container id="project-detail">
+                    <Row>
+                        {/* Description */}
+                        <Col>
+                        </Col>
+
+                        {/* Website Image & Link */}
+                        <Col>
+                        </Col>
+                    </Row>
+                    <Row>
+                        {/* Technologies */}
+                        <Col>
+                        </Col>
+
+                        {/* Code Image & Link */}
+                        <Col>
+                        </Col>
+                    </Row>
+                </Container>
             </Overdrive>
         )
     }

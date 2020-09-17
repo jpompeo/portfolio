@@ -73,10 +73,10 @@
 }
 
 .project-list-title-container {
-    height: 4em;
+    height: 3.5em;
     margin: 0px auto;
     display: table;
-    padding: 5px;
+    padding: 0 5px;
 }
 
 .project-list-title {
@@ -88,7 +88,7 @@
 
 .project-thumbnail {
     width: 90%;
-    margin: 5px auto;
+    margin: 10px auto;
     box-shadow: 3px 3px 7px rgba(92, 94, 97, .2);
     border-radius: 2px;
     opacity: 75%;
@@ -96,12 +96,12 @@
 
 .view-project-button {
     padding: 7px 10px;
-    width: 107%;
+    width: 108%;
     letter-spacing: 1px;
     font-size: 17px;
     font-variant: small-caps;
     border: none;
-    margin: 5px -10%;
+    margin: 0 0 5px -4%;
     background-color:  rgba( 5, 194, 201, .5);
     color: rgba(245, 245, 245, .9);
     box-shadow: 3px 3px 7px rgba(92, 94, 97, .1);

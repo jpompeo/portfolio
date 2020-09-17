@@ -18,12 +18,12 @@ const ProjectList = () => {
             return (
                 <Col key={project.id} className="project-list-col">
                     <div className="project-list-item">
-                        <h3 className="project-list-stack">{project.stack}</h3>
-                        <p className="project-list-type">{project.type}</p>
-                        <img className="project-thumbnail" src={project.imageMain} alt="Screenshot of project" />
                         <div className="project-list-title-container">
                             <h2 className="project-list-title">{project.title}</h2>
                         </div>
+                        <img className="project-thumbnail" src={project.imageMain} alt="Screenshot of project" />
+                        <h3 className="project-list-stack">{project.stack}</h3>
+                        <p className="project-list-type">{project.type}</p>
                         <Link to={`/projects/${project.id}`}>
                             <Overdrive
                                 id={project.id}
