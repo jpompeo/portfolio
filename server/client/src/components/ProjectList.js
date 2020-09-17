@@ -14,9 +14,9 @@ const ProjectList = () => {
 
     const renderProjects = () => {
 
-        return projectInfo.map((project, index) => {
+        return projectInfo.map((project) => {
             return (
-                <Col key={index} className="project-list-col">
+                <Col key={project.id} className="project-list-col">
                     <div className="project-list-item">
                         <h3 className="project-list-stack">{project.stack}</h3>
                         <p className="project-list-type">{project.type}</p>
@@ -24,17 +24,17 @@ const ProjectList = () => {
                         <div className="project-list-title-container">
                             <h2 className="project-list-title">{project.title}</h2>
                         </div>
-                        <Link to="/projects/write-track">
-                    <Overdrive 
-                        id="project-transition"
-                        animationDelay={1}
-                        // easing={1}
-                    >
-                            <button type="button" className="view-project-button">
-                                Learn More
+                        <Link to={`/projects/${project.id}`}>
+                            <Overdrive
+                                id={project.id}
+                                animationDelay={1}
+                            // easing={1}
+                            >
+                                <button type="button" className="view-project-button">
+                                    Learn More
                                 <span className="hide"> <BsBoxArrowUpRight /></span>
-                            </button>
-                    </Overdrive>
+                                </button>
+                            </Overdrive>
                         </Link>
                     </div>
                 </Col>

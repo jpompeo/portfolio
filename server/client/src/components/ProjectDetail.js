@@ -1,17 +1,22 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import { projectInfo } from '../data/project-info';
 import { Row, Col, Container, Button } from "react-bootstrap";
 import '../styles/ProjectDetail.css';
 import { BsArrowLeft } from 'react-icons/bs';
 import Overdrive from 'react-overdrive';
 
-const Bio = () => {
+const Bio = (props) => {
 
     const renderProject = () => {
+        //get project number from url path (last character) and subtract 1 for project index
+        const projectIndex = Number(props.location.pathname.split('').pop()) - 1;
+        const project = projectInfo[projectIndex];
+        
         return (
-            <Overdrive id="project-transition">
+            <Overdrive id={project.id}>
                 <div id="project-detail">
-
+                    
                 </div>
             </Overdrive>
         )
