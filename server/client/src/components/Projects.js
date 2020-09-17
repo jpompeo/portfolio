@@ -15,13 +15,13 @@ class Projects extends Component {
             return (
                 <Col key={index} className="project-list-col">
                     <div className="project-list-item">
+                        <h3 className="project-list-stack">{project.stack}</h3>
+                        <p className="project-list-type">{project.type}</p>
+                        <img className="project-thumbnail" src={project.imageMain} alt="Screenshot of project" />
+                        <div className="project-list-title-container">
                         <h2 className="project-list-title">{project.title}</h2>
-                        <p className="project-list-type">{project.stack} - <em>{project.type}</em></p>
-                        <div className="spacer">
-                        <img src={project.imageMain} alt="Screenshot of project" />
-
                         </div>
-                        <Button>Learn More</Button>
+                        <button type="button" className="view-project-button">Learn More</button>
                     </div>
                 </Col>
             )

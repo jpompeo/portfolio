@@ -33,8 +33,6 @@
 #projects-title h1 {
     font-size: 20px;
     background-color: rgba(252, 220, 104 , .7);
-    /* background-color: rgba( 5, 194, 201, .3); */
-    /* background-color: rgba(27, 36, 47, .4); */
     display: inline-block;
     padding: 7px 20px;
     width: 10em;
@@ -44,15 +42,76 @@
 .project-list-item {
     border-radius: 3px;
     width: 100%;
-    margin: 20px auto;
+    margin: 20px 5px;
     background-color: rgba( 5, 194, 201, .4);
     color: rgba(69, 71, 74, 1);
+    padding: 15px 0;
 }
 
 .project-list-col {
     min-width: 250px;
     display: flex;
 }
+
+.project-list-stack {
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+.project-list-type {
+    font-size: 13px;
+    font-style: italic;
+}
+
+.project-list-title-container {
+    height: 50px;
+    margin: 0px auto;
+    display: table;
+}
+
+.project-list-title {
+    font-family: 'Overlock SC', 'Lexend Peta', sans-serif;
+    font-size: 22px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.project-thumbnail {
+    width: 90%;
+    margin: 5px auto;
+    box-shadow: 3px 3px 7px rgba(92, 94, 97, .2);
+    border-radius: 3px;
+}
+
+.view-project-button {
+    padding: 7px 10px;
+    width: 107%;
+    border-radius: 3px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-variant: small-caps;
+    background-color: rgba(252, 220, 104 , 1);
+    color: rgba(69, 71, 74, 1);
+    /* color: rgba(27, 36, 47, .8); */
+    border: none;
+    /* color: rgba( 5, 194, 201, 1); */
+    margin: 5px -10%;
+    background-color: rgba(69, 71, 74, .3);
+    background-color:  rgba( 5, 194, 201, .5);
+    color: rgba(245, 245, 245, .9);
+    box-shadow: 3px 3px 7px rgba(92, 94, 97, .1);
+}
+
+.view-project-button:hover {
+    background-color: rgba(252, 220, 104 , .75);
+    color: rgba(69, 71, 74, .75);
+    font-variant: small-caps;
+    /* font-size: 18px; */
+    transition: all .3s ease-in-out;
+    transform: scale(1.05);
+    border-radius: 3px;
+}
+
 
 
 
