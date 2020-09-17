@@ -49,9 +49,14 @@
 }
 
 .project-list-item:hover {
-    transition: all .3s ease-in-out;
+    transition: all .4s ease-in-out;
     transform: scale(1.05);
     box-shadow: 3px 3px 7px rgba(92, 94, 97, .2);
+}
+
+.project-list-item:hover img {
+    opacity: 100%;
+    transition: all .5s ease-in-out;
 }
 
 .project-list-col {
@@ -60,7 +65,7 @@
 }
 
 .project-list-stack {
-    font-size: 20px;
+    font-size: 17px;
     font-variant: small-caps;
 }
 
@@ -70,9 +75,10 @@
 }
 
 .project-list-title-container {
-    height: 50px;
+    height: 4em;
     margin: 0px auto;
     display: table;
+    padding: 5px;
 }
 
 .project-list-title {
@@ -86,15 +92,17 @@
     width: 90%;
     margin: 5px auto;
     box-shadow: 3px 3px 7px rgba(92, 94, 97, .2);
-    border-radius: 3px;
+    border-radius: 2px;
+    opacity: 75%;
 }
 
 .view-project-button {
     padding: 7px 10px;
     width: 107%;
     border-radius: 3px;
-    font-size: 17px;
     letter-spacing: 1px;
+    font-size: 14px;
+    font-size: 17px;
     font-variant: small-caps;
     background-color: rgba(252, 220, 104 , 1);
     color: rgba(69, 71, 74, 1);
@@ -122,9 +130,8 @@
 .hide {
     display: none;
     position: absolute;
-    right: 60px;
-    /* right: 3px; */
     top: 3px;
+    margin-left: 2px;
     color: rgba(69, 71, 74, .6);
     font-size: 10px;
 }

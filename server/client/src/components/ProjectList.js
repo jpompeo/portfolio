@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Row, Col, Container } from "react-bootstrap";
-import '../styles/Projects.css';
+import '../styles/ProjectList.css';
 import { projectInfo } from '../data/project-info';
 import { BsBoxArrowUpRight } from 'react-icons/bs';
 import { FiArrowUpRight } from 'react-icons/fi';
 import { RiArrowRightUpLine } from 'react-icons/ri';
+import { CgArrowTopRightR } from 'react-icons/cg';
 
 class ProjectList extends Component {
     constructor(props) {
@@ -28,7 +29,7 @@ class ProjectList extends Component {
                         <Link to="/projects/write-track">
                             <button type="button" className="view-project-button">
                                 Learn More 
-                                <span className="hide"><BsBoxArrowUpRight/></span>
+                                <span className="hide"> <BsBoxArrowUpRight/></span>
                             </button>
                         </Link>
                     </div>
