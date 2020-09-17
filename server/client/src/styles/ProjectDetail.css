@@ -1,4 +1,4 @@
-#bio {
+#project {
     padding: 15px 50px 40px;
     border-radius: 3px;
     width: 80%;
@@ -8,32 +8,16 @@
     background-color: rgba(1, 161, 167, .1);
 }
 
-#headshot-container {
-    margin: 0 auto;
-    text-align: center;
-}
-
-#headshot {
-    box-sizing: border-box;
-    display: inline-block;
-    width: 100%;
-    max-width: 600px;
-    margin: 5px auto 20px;
-    border-radius: 3px;
-    box-shadow: 3px 3px 7px rgba(92, 94, 97, .3);
-}
-
-#bio-text-container {
+#project-detail-container {
     padding: 0;
     border-radius: 3px;
-    max-width: 600px;
     text-align: center;
     margin: 5px auto;
     background-color: rgba( 5, 194, 201, .4);
     width: 100%;
 }
 
-#bio-text {
+#project-detail {
     display: inline-block;
     box-sizing: border-box;
     width: 100%;
@@ -45,7 +29,7 @@
     color: rgba(69, 71, 74, 1);
 }
 
-#bio-title {
+#project-title {
     font-size: 20px;
     font-variant: small-caps;
     color: rgba(92, 94, 97, 1);
@@ -55,11 +39,37 @@
     text-align: right;
 }
 
-#bio-title h1 {
+#project-title h1 {
     font-size: 20px;
     background-color: rgba(252, 220, 104 , .7);
     display: inline-block;
     padding: 7px 20px;
     width: 10em;
     margin: 0 -80px 0 0;
+}
+
+.back-link-container {
+    text-align: left;
+    padding: 0 20px;
+}
+
+.back-button {
+    padding: 7px 25px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-variant: small-caps;
+    border: none;
+    margin: 10px auto auto -35px;
+    background-color:  rgba( 5, 194, 201, .5);
+    color: rgba(245, 245, 245, .9);
+    box-shadow: 3px 3px 7px rgba(92, 94, 97, .1);
+}
+
+.back-button:hover {
+    background-color: rgba(252, 220, 104 , .75);
+    color: rgba(69, 71, 74, .75);
+    font-variant: small-caps;
+    transition: all .3s ease-in-out;
+    transform: scale(1.05);
+    position: relative;
 }

@@ -4,7 +4,7 @@ body {
     color: rgba(69, 71, 74, 1);
 }
 
-.back-button {
+/* .back-button {
     color: rgba(69, 71, 74, 1);
     border-radius: 3px 20px; 
     margin: 20px auto;
@@ -19,4 +19,4 @@ body {
     transform: scale(1.1);
     background-color: rgba(252, 220, 104 , .7);
     border: 3.5px solid rgba(252, 220, 104 , .5);
-}
+} */
