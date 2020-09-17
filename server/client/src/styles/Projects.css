@@ -44,16 +44,16 @@
 .project-list-item {
     border-radius: 3px;
     width: 100%;
-    min-width: 250px;
-    height: 250px;
     margin: 20px auto;
     background-color: rgba( 5, 194, 201, .4);
     color: rgba(69, 71, 74, 1);
 }
 
-.hide {
-    display: none;
+.project-list-col {
+    min-width: 250px;
+    display: flex;
 }
+
 
 
 

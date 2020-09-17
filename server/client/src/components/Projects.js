@@ -6,21 +6,26 @@ import { projectInfo } from '../data/project-info';
 class Projects extends Component {
     constructor(props) {
         super();
-
-
     }
 
-    renderProject = (projectNumber) => {
-        const project = projectInfo[projectNumber - 1];
+    renderProjects = () => {
+        console.log(projectInfo);
 
-        return (
-            <div className="project-list-item">
-                <h2 className="project-list-title">{project.title}</h2>
-                <p className="project-list-type">{project.stack} - <em>{project.type}</em></p>
-                <img src={project.imageMain} alt="Screenshot of project" />
-                <Button>Learn More</Button>
-            </div>
-        )
+        return projectInfo.map((project, index) => {
+            return (
+                <Col key={index} className="project-list-col">
+                    <div className="project-list-item">
+                        <h2 className="project-list-title">{project.title}</h2>
+                        <p className="project-list-type">{project.stack} - <em>{project.type}</em></p>
+                        <div className="spacer">
+                        <img src={project.imageMain} alt="Screenshot of project" />
+
+                        </div>
+                        <Button>Learn More</Button>
+                    </div>
+                </Col>
+            )
+        })
     }
 
     render() {
@@ -37,44 +42,10 @@ class Projects extends Component {
 
                 <Row>
                     <Col>
-                        <Container id="projects-list-container">
+                        <Container fluid id="projects-list-container">
                             <Row>
-
-                                <Col>
-                                    {this.renderProject(1)}
-
-                                </Col>
-
-                                <Col>
-                                    <div className="project-list-item">
-                                        Project 2
-                                </div>
-                                </Col>
-
-                                <Col>
-                                    <div className="project-list-item">
-                                        Project 3
-                                </div>
-                                </Col>
-
-                                <Col>
-                                    <div className="project-list-item">
-                                        Project 4
-                                </div>
-                                </Col>
-
-                                <Col>
-                                    <div className="project-list-item">
-                                        Project 5
-                                </div>
-                                </Col>
-
-                                <Col>
-                                    <div className="project-list-item">
-                                        Project 6
-                                </div>
-                                </Col>
-
+                                {/* Projects (list/summary view)*/}
+                                {this.renderProjects()}
                             </Row>
                         </Container>
                     </Col>
