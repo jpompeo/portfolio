@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
-import { Row, Col, Container, Button } from "react-bootstrap";
+import { Link } from 'react-router-dom';
+import { Row, Col, Container } from "react-bootstrap";
 import '../styles/Projects.css';
 import { projectInfo } from '../data/project-info';
+import { BsBoxArrowUpRight } from 'react-icons/bs';
+import { FiArrowUpRight } from 'react-icons/fi';
+import { RiArrowRightUpLine } from 'react-icons/ri';
 
-class Projects extends Component {
+class ProjectList extends Component {
     constructor(props) {
         super();
     }
@@ -21,7 +25,12 @@ class Projects extends Component {
                         <div className="project-list-title-container">
                         <h2 className="project-list-title">{project.title}</h2>
                         </div>
-                        <button type="button" className="view-project-button">Learn More</button>
+                        <Link to="/projects/write-track">
+                            <button type="button" className="view-project-button">
+                                Learn More 
+                                <span className="hide"><BsBoxArrowUpRight/></span>
+                            </button>
+                        </Link>
                     </div>
                 </Col>
             )
@@ -55,4 +64,4 @@ class Projects extends Component {
     }
 }
 
-export default Projects;
+export default ProjectList;

@@ -1,5 +1,5 @@
 #projects {
-    padding: 15px 50px 75px;
+    padding: 15px 30px 50px;
     border-radius: 3px;
     width: 80%;
     min-width: 400px;
@@ -42,10 +42,16 @@
 .project-list-item {
     border-radius: 3px;
     width: 100%;
-    margin: 20px 5px;
+    margin: 20px 10px;
     background-color: rgba( 5, 194, 201, .4);
     color: rgba(69, 71, 74, 1);
     padding: 15px 0;
+}
+
+.project-list-item:hover {
+    transition: all .3s ease-in-out;
+    transform: scale(1.05);
+    box-shadow: 3px 3px 7px rgba(92, 94, 97, .2);
 }
 
 .project-list-col {
@@ -110,7 +116,22 @@
     transition: all .3s ease-in-out;
     transform: scale(1.05);
     border-radius: 3px;
+    position: relative;
 }
+
+.hide {
+    display: none;
+    position: absolute;
+    right: 60px;
+    /* right: 3px; */
+    top: 3px;
+    color: rgba(69, 71, 74, .6);
+    font-size: 10px;
+}
+
+.view-project-button:hover > .hide {
+    display: inline-block;
+  }
 
 
 

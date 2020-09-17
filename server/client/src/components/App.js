@@ -4,9 +4,8 @@ import { Row, Col, Container } from "react-bootstrap";
 import Main from './Main';
 import HeaderNav from './HeaderNav';
 import Bio from './Bio';
-import Demo from './Demo';
-import Cohort from './Cohort';
-import Projects from './Projects';
+import ProjectList from './ProjectList';
+import ProjectDetail from './ProjectDetail';
 import Contact from './Contact';
 import Home from './Home';
 
@@ -24,10 +23,10 @@ const App = () => {
         <Row>
           <Col >
 
-            {/* Main page*/}
+            {/* Main view*/}
             <Switch>
 
-              {/* Default view */}
+              {/* Home page */}
               <Route exact path={["/", "/home"]} component={Home} />
               <Route exact path={"/main"} component={Main} />
 
@@ -35,16 +34,13 @@ const App = () => {
               <Route exact path="/about" component={Bio} />
 
               {/* Projects */}
-              <Route exact path="/projects" component={Projects} />
+              <Route exact path="/projects" component={ProjectList} />
 
               {/* Contact */}
               <Route exact path="/contact" component={Contact} />
 
-              {/* Write Track demo */}
-              <Route exact path="/projects/write-track" component={Demo} />
-
-              {/* Muze Networking/ Cohort project */}
-              <Route exact path="/projects/cohort" component={Cohort} />
+              {/* Project Details */}
+              <Route path="/projects/" component={ProjectDetail} />
 
             </Switch>
 
