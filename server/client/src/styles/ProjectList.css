@@ -1,7 +1,7 @@
 #projects {
     padding: 15px 40px 40px;
     border-radius: 3px;
-    width: 80%;
+    width: 95%;
     min-width: 400px;
     max-width: 1200px;
     margin: 20px auto 40px;
@@ -39,7 +39,7 @@
 .project-list-item {
     border-radius: 3px;
     width: 100%;
-    margin: 20px 10px;
+    margin: 20px 15px;
     background-color: rgba( 5, 194, 201, .4);
     color: rgba(69, 71, 74, 1);
     padding: 15px 0;
@@ -48,7 +48,7 @@
 .project-list-item:hover {
     transition: all .4s ease-in-out;
     transform: scale(1.05);
-    box-shadow: 3px 3px 7px rgba(92, 94, 97, .2);
+    box-shadow: 3px 3px 7px rgba(92, 94, 97, .3);
     border-radius: 1px;
 }
 
@@ -58,7 +58,7 @@
 }
 
 .project-list-col {
-    min-width: 250px;
+    min-width: 300px;
     display: flex;
 }
 
@@ -97,9 +97,8 @@
 .view-project-button {
     padding: 7px 10px;
     width: 108%;
-    letter-spacing: 1px;
-    font-size: 17px;
-    font-variant: small-caps;
+    letter-spacing: .5px;
+    font-size: 16px;
     border: none;
     margin: 0 0 5px -4%;
     background-color:  rgba( 5, 194, 201, .5);
@@ -110,7 +109,6 @@
 .view-project-button:hover {
     background-color: rgba(252, 220, 104 , .75);
     color: rgba(69, 71, 74, .75);
-    font-variant: small-caps;
     transition: all .3s ease-in-out;
     transform: scale(1.05);
     position: relative;
@@ -120,7 +118,7 @@
     display: none;
     position: absolute;
     top: 3px;
-    margin-left: 2px;
+    margin-left: 7px;
     color: rgba(69, 71, 74, .6);
     font-size: 10px;
 }

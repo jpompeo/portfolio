@@ -27,8 +27,8 @@ const ProjectList = () => {
                         <Link to={`/projects/${project.id}`}>
                             <Overdrive
                                 id={project.id}
-                                animationDelay={1}
-                            // easing={1}
+                                animationDelay={2}
+                            easing="all ease-in-out .5s"
                             >
                                 <button type="button" className="view-project-button">
                                     Learn More
