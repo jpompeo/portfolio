@@ -21,7 +21,7 @@ const ProjectList = () => {
                         <div className="project-list-title-container">
                             <h2 className="project-list-title">{project.title}</h2>
                         </div>
-                        <img className="project-thumbnail" src={project.imageMain} alt="Screenshot of project" />
+                        <img className="project-thumbnail" src={project.imageApp} alt="Screenshot of project" />
                         <h3 className="project-list-stack">{project.stack}</h3>
                         <p className="project-list-type">{project.type}</p>
                         <Link to={`/projects/${project.id}`}>

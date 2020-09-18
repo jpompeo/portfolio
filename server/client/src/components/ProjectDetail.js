@@ -19,19 +19,30 @@ const Bio = (props) => {
                     <Row>
                         {/* Description */}
                         <Col>
+                            <h2>Description:</h2>
+                            <p>
+                                {project.summary}
+                            </p>
                         </Col>
 
                         {/* Website Image & Link */}
                         <Col>
+                            <img src={project.imageApp} alt="App Preview"/>
                         </Col>
                     </Row>
                     <Row>
                         {/* Technologies */}
                         <Col>
+                            <h2>Technologies:</h2>
+                            <p>
+                                {project.tech}
+                            </p>
                         </Col>
 
                         {/* Code Image & Link */}
                         <Col>
+                            <a href={project.linkApp}></a>
+                            <img src={project.imageCode} alt="Code Sample"/>
                         </Col>
                     </Row>
                 </Container>
