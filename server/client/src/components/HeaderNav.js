@@ -9,7 +9,7 @@ const HeaderNav = () => {
 
 
       <Navbar collapseOnSelect expand="lg">
-        <Navbar.Brand href="" id="logo">
+        <Navbar.Brand href="/" id="logo">
           <span id="header-name">
             <span className="logo-initials">J</span>oanna <span className="logo-initials">P</span>ompeo 
           </span>
@@ -21,7 +21,7 @@ const HeaderNav = () => {
           <Nav className="mr-auto">
             
           </Nav>
-          <Nav>
+          <Nav id="header-nav-links">
           <Nav.Link href="/home">Home</Nav.Link>
             <Nav.Link href="/projects">Projects</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>

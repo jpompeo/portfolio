@@ -48,7 +48,7 @@
 .project-list-item:hover {
     transition: all .4s ease-in-out;
     transform: scale(1.05);
-    box-shadow: 3px 3px 7px rgba(92, 94, 97, .3);
+    box-shadow: 3px 3px 7px rgba(92, 94, 97, .2);
     border-radius: 1px;
 }
 
