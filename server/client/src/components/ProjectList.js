@@ -31,7 +31,7 @@ const ProjectList = () => {
                             easing="all ease-in-out .5s"
                             >
                                 <button type="button" className="view-project-button">
-                                    Learn More
+                                    View Project
                                 <span className="hide"> <BsBoxArrowUpRight /></span>
                                 </button>
                             </Overdrive>

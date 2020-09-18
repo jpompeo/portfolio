@@ -24,7 +24,7 @@
     text-align: left;
     font-size: 14px;
     margin: 0 auto;
-    padding: 20px 30px 10px;
+    padding: 0px 30px 15px;
     border-radius: 3px;
     color: rgba(69, 71, 74, 1);
 }
@@ -51,6 +51,7 @@
 .back-link-container {
     text-align: left;
     padding: 0 20px;
+    /* margin: 0 auto; */
 }
 
 .back-button {
@@ -80,6 +81,7 @@
     margin: 20px auto;
     /* border: 3px solid  rgba( 5, 194, 201, .4); */
     box-shadow: 3px 3px 7px rgba(92, 94, 97, .3);
+    box-shadow: 3px 3px 8px rgba(0,0,0,.2);
     opacity: 98%;
     border-radius: 3px;
 }
@@ -117,14 +119,24 @@
     background-color: rgba(69, 71, 74, .7);
 }
 
+.project-detail-link p:hover {
+    background-color: rgba(69, 71, 74, 1);
+    color: rgba(245, 245, 245, 1);
+}
+
 #project-detail header {
     text-align: center;
     margin: 0 auto 20px;
+    border-bottom: 2px solid  rgba(69, 71, 74, .1);
+    width: 60%;
+    padding: 0 0 10px;
 }
 
 .project-detail-title {
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Overlock SC', 'Lexend Peta', sans-serif;
+    margin: 0 auto;
+    line-height: 1em;
 }
 .project-detail-stack {
     font-size: 20px;
@@ -132,21 +144,26 @@
 }
 
 .project-detail-type {
-    font-size: 15px;
-    font-style: italic;
+    font-size: 20px;
+    /* font-style: italic; */
+    font-variant: small-caps;
 }
 
 .project-detail-summary-header {
     margin: 20px auto 10px;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
     font-variant: small-caps;
 }
 
 .project-detail-summary {
-    font-size: 12px;
+    font-size: 13px;
     /* letter-spacing: .1px; */
     text-align: left;
     vertical-align: middle;
     display: table-cell;
+}
+
+.facode {
+    font-size: 2px;
 }

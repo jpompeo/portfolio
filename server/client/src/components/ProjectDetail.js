@@ -6,6 +6,7 @@ import '../styles/ProjectDetail.css';
 import { BsArrowLeft } from 'react-icons/bs';
 import Overdrive from 'react-overdrive';
 import { BsBoxArrowUpRight } from 'react-icons/bs';
+import { FaCode } from 'react-icons/fa';
 
 const Bio = (props) => {
 
@@ -21,7 +22,7 @@ const Bio = (props) => {
                         <Col>
                         <header>
                             <h1 className="project-detail-title">{project.title}</h1>
-                            <h2><span className="project-detail-stack">{project.stack}</span> - <span className="project-detail-type">{project.type}</span></h2>
+                            <h2><span className="project-detail-stack">{project.stack}</span> <FaCode size="1em"/> <span className="project-detail-type">{project.type}</span></h2>
                         </header>
                         </Col>
                     </Row>

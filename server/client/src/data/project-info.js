@@ -56,7 +56,7 @@ export const projectInfo = [
             stack: 'Front End',
             type: 'Collaborative',
             summary: 'Intended as a curated collection of book titles, this app allows users to find book suggestions by theme and add recommendations without arbitrary star ratings, allowing for a more meaningful user experience.',
-            tech: 'Partnering with 1 other Software Engineer in a 2-day Hackathon, this app was built on React, utilizing Redux for state management and Google Books API for data.',
+            tech: 'Partnering with another Software Engineer in a 2-day Hackathon, this app was built on React, utilizing Redux for state management and Google Books API for data.',
             imageApp: TestProjectImage,
             imageCode: CodeSample,
             linkApp: '',
