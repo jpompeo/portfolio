@@ -91,7 +91,7 @@
     margin: 10px auto;
     box-shadow: 3px 3px 7px rgba(92, 94, 97, .2);
     border-radius: 2px;
-    opacity: 75%;
+    /* opacity: 75%; */
 }
 
 .view-project-button {
