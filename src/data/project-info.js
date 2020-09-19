@@ -71,7 +71,7 @@ export const projectInfo = [
             tech: 'Created with React, this Front End application utilizes React Router for navigation and CSS3 with Bootstrap for styling.',
             imageApp: TestProjectImage,
             imageCode: CodeSample,
-            linkApp: '',
+            linkApp: 'https://breakfast-club-contacts.netlify.app/',
             linkCode: 'https://github.com/jpompeo/contact-list'
         }
 ]
