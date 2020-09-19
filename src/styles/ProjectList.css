@@ -52,7 +52,15 @@
     border-radius: 1px;
 }
 
-.project-list-item:hover img {
+.project-thumbnail {
+    width: 90%;
+    margin: 10px auto;
+    box-shadow: 3px 3px 7px rgba(92, 94, 97, .2);
+    border-radius: 2px;
+    opacity: .75;
+}
+
+.project-list-item:hover .project-thumbnail {
     opacity: 1;
     transition: all .5s ease-in-out;
 }
@@ -86,13 +94,6 @@
     vertical-align: middle;
 }
 
-.project-thumbnail {
-    width: 90%;
-    margin: 10px auto;
-    box-shadow: 3px 3px 7px rgba(92, 94, 97, .2);
-    border-radius: 2px;
-    opacity: .75;
-}
 
 .view-project-button {
     padding: 7px 10px;
