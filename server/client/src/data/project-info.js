@@ -28,14 +28,14 @@ export const projectInfo = [
         },
         {
             id: 'project3',
-            title: 'Eccentric Essentials',
+            title: 'Peculiar Products',
             stack: 'Full Stack',
             type: 'Individual',
             summary: 'This Full Stack shopping app allows users to search products by keyword, filter by category, and sort by price, utilizing server-side parsing and pagination and a REST API to efficiently send data from the server to the client.',
-            tech: 'Utilizing Redux for state management, this app uses React on the Front End and a RESTful API built with Node.js and Express on the Back End.',
+            tech: 'Utilizing Redux for state management, this app uses React on the Front End and a REST API built with Node.js and Express on the Back End.',
             imageApp: TestProjectImage,
             imageCode: CodeSample,
-            linkApp: '',
+            linkApp: 'http://peculiar-products.herokuapp.com/',
             linkCode: 'https://github.com/jpompeo/product-list'
         },
         {
@@ -43,7 +43,7 @@ export const projectInfo = [
             title: 'Sunglasses.io',
             stack: 'Back End',
             type: 'Individual',
-            summary: 'Practicing Test Driven Development and proper documentation of code, this Back End application was created to support a mock sunglasses storefront, utilizing a RESTful API and user authentication.',
+            summary: 'Practicing Test Driven Development and proper documentation of code, this Back End application was created to support a mock sunglasses storefront, utilizing a REST API and user authentication.',
             tech: 'This server-side application was built with Node.js, produces 60+ tests with Mocha and Chai, and documents the REST API with Swagger',
             imageApp: TestProjectImage,
             imageCode: CodeSample,

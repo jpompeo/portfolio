@@ -8,7 +8,7 @@ const HeaderNav = () => {
     <header id="header-nav">
 
 
-      <Navbar collapseOnSelect expand="lg">
+      <Navbar id="navbar" collapseOnSelect expand="lg">
         <Navbar.Brand href="/" id="logo">
           <span id="header-name">
             <span className="logo-initials">J</span>oanna <span className="logo-initials">P</span>ompeo 
