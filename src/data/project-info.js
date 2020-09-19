@@ -47,7 +47,7 @@ export const projectInfo = [
             tech: 'This server-side application was built with Node.js, produces 60+ tests with Mocha and Chai, and documents the REST API with Swagger',
             imageApp: TestProjectImage,
             imageCode: CodeSample,
-            linkApp: '',
+            linkApp: 'https://github.com/jpompeo/sunglasses-io/blob/master/swagger-sunglasses.yaml',
             linkCode: 'https://github.com/jpompeo/sunglasses-io'
         },
         {
@@ -59,7 +59,7 @@ export const projectInfo = [
             tech: 'Partnering with another Software Engineer in a 2-day Hackathon, this app was built on React, utilizing Redux for state management and Google Books API for data.',
             imageApp: TestProjectImage,
             imageCode: CodeSample,
-            linkApp: '',
+            linkApp: 'https://bespoke-books.netlify.app/',
             linkCode: 'https://github.com/jpompeo/bespoke-books'
         },
         {
