@@ -38,7 +38,9 @@ const App = () => {
               <Route exact path="/contact" component={Contact} />
 
               {/* Project Details */}
-              <Route path="/projects/" component={ProjectDetail} />
+              <Route path="/projects/:id" render={(routerProps) => (
+                <ProjectDetail  projectId={routerProps.match.params.id}/>
+              )}/>
 
             </Switch>
 

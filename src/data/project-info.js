@@ -14,7 +14,7 @@ import sgApp from '../assets/screenshots/sgscreenshot.png';
 
 export const projectInfo = [
         {
-            id: 'project1',
+            id: 'write-track',
             title: 'Write Track',
             stack: 'Full Stack',
             type: 'Individual',
@@ -26,7 +26,7 @@ export const projectInfo = [
             linkCode: 'https://github.com/jpompeo/writing-app'
         },
         {
-            id: 'project2',
+            id: 'muze-networking',
             title: 'Muze Networking',
             stack: 'Full Stack',
             type: 'Collaborative',
@@ -38,7 +38,7 @@ export const projectInfo = [
             linkCode: 'https://github.com/spaldingVance/Virtual-Networking'
         },
         {
-            id: 'project3',
+            id: 'peculiar-products',
             title: 'Peculiar Products',
             stack: 'Full Stack',
             type: 'Individual',
@@ -50,7 +50,7 @@ export const projectInfo = [
             linkCode: 'https://github.com/jpompeo/product-list'
         },
         {
-            id: 'project4',
+            id: 'sunglasses-io',
             title: 'Sunglasses.io',
             stack: 'Back End',
             type: 'Individual',
@@ -62,7 +62,7 @@ export const projectInfo = [
             linkCode: 'https://github.com/jpompeo/sunglasses-io'
         },
         {
-            id: 'project5',
+            id: 'bespoke-books',
             title: 'Bespoke Books',
             stack: 'Front End',
             type: 'Collaborative',
@@ -74,7 +74,7 @@ export const projectInfo = [
             linkCode: 'https://github.com/jpompeo/bespoke-books'
         },
         {
-            id: 'project6',
+            id: 'breakfast-club-contacts',
             title: 'Breakfast Club Contacts',
             stack: 'Front End',
             type: 'Individual',
