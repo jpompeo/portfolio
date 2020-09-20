@@ -2,7 +2,7 @@
     padding: 15px 50px 40px;
     border-radius: 3px;
     width: 95%;
-    min-width: 400px;
+    /* min-width: 400px; */
     max-width: 1400px;
     margin: 40px auto;
     background-color: rgba(1, 161, 167, .1);

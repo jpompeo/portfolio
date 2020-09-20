@@ -7,7 +7,7 @@
     padding: 20px;
     border-radius: 3px;
     width: 95%;
-    min-width: 400px;
+    /* min-width: 400px; */
     max-width: 1600px;
     margin: 40px auto;
     background-color: rgba(1, 161, 167, .1);
@@ -30,16 +30,14 @@
 
 #home {
     margin: 0px auto;
-    padding: 100px 200px;
     padding: 10% 20%;
     background-color: rgba(252, 220, 104 , .7);
-    position: relative;
 }
 
 #home-text {
     border-radius: 3px;
     text-align: center;
-    background-color: rgba( 5, 194, 201, .8);
+    background-color: rgba( 5, 185, 201, .8);
     /* background-color: rgba(1, 161, 167, .85); */
     color: rgba(220,236,237, 1);
     /* color: rgba(69, 71, 74, 1); */
@@ -70,11 +68,10 @@
 }
 
 #home button {
-    border:  solid 3px rgba(4, 146, 151, 1);
+    border:  solid 2px rgba(4, 135, 151, 1);
     border-radius: 4px;
-    background-color: rgba(1, 161, 167, .4);
     background-color: transparent;
-    color: rgba(4, 146, 151, 1);
+    color: rgba(4, 135, 155, 1);
     margin: 5px auto;
     font-variant: small-caps;
 }
@@ -82,8 +79,9 @@
 #home button:hover {
     transition: all .4s ease-in-out;
     transform: scale(1.2);
-    background-color: rgba(80, 207, 197, 1);
-    color: rgba(3, 121, 126, 1);
-    border-color: rgba(3, 121, 126, 1);
+    background-color: rgba(90, 205, 207, .8);
+    color: rgba(3, 125, 130, 1);
+    border-color: rgba(3, 125, 130, 1);
+    border-radius: 3px;
 }
 

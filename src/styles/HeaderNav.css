@@ -13,14 +13,16 @@
     color: rgba(245, 245, 245, 1);
     font-size: 15px;
     letter-spacing: 1px;
-    margin: 0 5px;
+    margin: 0 10px;
+    text-align: right;
 }
 
 #header-nav-links a:hover {
-    /* color: rgba(252, 220, 104 , 1); */
-    color: rgba(243,224,144, 1);
+    /* color: rgba(252, 220, 104 , 1);
+    color: rgba(243,224,144, 1); */
+    color: rgba(250,227,146, 1);
     transition: all .3s ease-in-out;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 #logo {
