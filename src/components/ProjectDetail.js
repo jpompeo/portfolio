@@ -6,10 +6,11 @@ import '../styles/ProjectDetail.css';
 import { BsArrowLeft } from 'react-icons/bs';
 import Overdrive from 'react-overdrive';
 import { BsBoxArrowUpRight } from 'react-icons/bs';
+import { BsArrowUpRight } from 'react-icons/bs';
 import { FaCode } from 'react-icons/fa';
 import _ from 'lodash';
 
-const Bio = (props) => {
+const ProjectDetail = (props) => {
 
     const renderProject = () => {
 
@@ -39,6 +40,7 @@ const Bio = (props) => {
                                 <p className="project-detail-summary">
                                     {project.summary}
                                 </p>
+                                <a className="project-detail-text-link" href={project.linkApp} target="_blank">View App <BsBoxArrowUpRight/></a>
                             </Col>
 
                             {/* Website Image & Link */}
@@ -68,6 +70,7 @@ const Bio = (props) => {
                                 <p className="project-detail-summary">
                                     {project.tech}
                                 </p>
+                                <a className="project-detail-text-link" href={project.linkCode} target="_blank">View Code <BsBoxArrowUpRight/></a>
                             </Col>
                         </Row>
                     </Container>
@@ -106,4 +109,4 @@ const Bio = (props) => {
     )
 }
 
-export default Bio;
+export default ProjectDetail;

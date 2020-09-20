@@ -166,3 +166,30 @@
 .facode {
     font-size: 2px;
 }
+
+.project-detail-text-link {
+    text-decoration: none;
+    color:rgba(245, 245, 245, 1);
+    font-size: 13px;
+    padding: 5px;
+    margin: 5px auto;
+    display: inline-block;
+    text-align: right;
+    background-color:  rgba( 5, 194, 201, .5);
+    color: rgba(245, 245, 245, .9);
+    border-radius: 3px;
+    margin: 5px auto;
+}
+
+.project-detail-text-link:hover {
+    text-decoration: none;
+    color: rgba(252, 220, 104 , .75);
+    font-size: 13px;
+    background-color: rgba(69, 71, 74, .6);
+    /* color: rgba(245, 245, 245, 1); */
+    background-color: rgba(252, 220, 104 , .75);
+    color: rgba(69, 71, 74, .75);
+    transition: all .3s ease-in-out;
+    transform: scale(1.05);
+}
+
