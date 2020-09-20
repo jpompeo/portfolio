@@ -71,10 +71,10 @@
 
 #home button {
     border:  solid 3px rgba(4, 146, 151, 1);
-    border-radius: 3px;
+    border-radius: 4px;
     background-color: rgba(1, 161, 167, .4);
     background-color: transparent;
-    color: rgba(3, 121, 126, 1);
+    color: rgba(4, 146, 151, 1);
     margin: 5px auto;
     font-variant: small-caps;
 }
@@ -83,5 +83,7 @@
     transition: all .4s ease-in-out;
     transform: scale(1.2);
     background-color: rgba(80, 207, 197, 1);
+    color: rgba(3, 121, 126, 1);
+    border-color: rgba(3, 121, 126, 1);
 }
 
