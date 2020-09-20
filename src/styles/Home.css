@@ -37,7 +37,7 @@
 #home-text {
     border-radius: 3px;
     text-align: center;
-    background-color: rgba( 5, 185, 201, .75);
+    background-color: rgba( 5, 185, 201, .8);
     /* background-color: rgba(1, 161, 167, .85); */
     color: rgba(220,236,237, 1);
     /* color: rgba(69, 71, 74, 1); */
@@ -79,9 +79,11 @@
 #home button:hover {
     transition: all .4s ease-in-out;
     transform: scale(1.2);
-    background-color: rgba(90, 205, 207, .7);
+    /* background-color: rgba(90, 205, 207, .8); */
+    background-color: rgba(3, 120, 130, .8);
     color: rgba(3, 125, 130, 1);
-    border-color: rgba(3, 125, 130, 1);
+    border-color: rgba(3, 120, 130, 1);
     border-radius: 3px;
+    color: rgba(220,236,237, 1);
 }
 
