@@ -2,7 +2,7 @@ import React from "react";
 import { Switch, Route } from "react-router-dom";
 import { Row, Col, Container } from "react-bootstrap";
 import HeaderNav from './HeaderNav';
-import Bio from './Bio';
+import About from './About';
 import ProjectList from './ProjectList';
 import ProjectDetail from './ProjectDetail';
 import Contact from './Contact';
@@ -29,7 +29,7 @@ const App = () => {
               <Route exact path={["/", "/home"]} component={Home} />
 
               {/* Bio */}
-              <Route exact path="/about" component={Bio} />
+              <Route exact path="/about" component={About} />
 
               {/* Projects */}
               <Route exact path="/projects" component={ProjectList} />
