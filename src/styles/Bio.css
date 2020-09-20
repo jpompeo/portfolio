@@ -1,0 +1,12 @@
+#bio-text {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 20px 30px 10px;
+    border-radius: 3px;
+    color: rgba(69, 71, 74, 1);
+    line-height: 1.7;
+}
