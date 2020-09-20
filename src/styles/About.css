@@ -63,3 +63,38 @@
     width: 10em;
     margin: 0 0 0 -80px;
 }
+
+.bio-toggle {
+    text-align: right;
+}
+
+.toggle-button-container {
+    text-align: right;
+    padding: 0px 20px 20px;
+}
+
+.bio-toggle {
+    padding: 7px 25px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-variant: small-caps;
+    border: none;
+    margin: 0px  -35px auto auto;
+    background-color:  rgba( 5, 194, 201, .5);
+    color: rgba(245, 245, 245, .9);
+    box-shadow: 3px 3px 7px rgba(92, 94, 97, .1);
+}
+
+.bio-toggle:hover {
+    outline: none;
+    background-color: rgba(252, 220, 104 , .75);
+    color: rgba(69, 71, 74, .75);
+    font-variant: small-caps;
+    transition: all .3s ease-in-out;
+    transform: scale(1.05);
+    position: relative;
+}
+
+.bio-toggle:focus {
+    outline: none;
+  }

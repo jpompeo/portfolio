@@ -4,6 +4,7 @@ import '../styles/About.css';
 import JoannaHeadshot from '../assets/headshot1.jpg';
 import Bio from './Bio';
 import Skills from './Skills';
+import { BsArrowRight } from 'react-icons/bs';
 
 class About extends Component {
     constructor(props) {
@@ -19,26 +20,30 @@ class About extends Component {
             return (
                 <React.Fragment>
                     <Bio />
-                    <button
-                        onClick={e => {
-                            this.setState({ showBio: false })
-                        }}
-                    >
-                        Show Skills
-                    </button>
+                    <div className="toggle-button-container">
+                        <button className="bio-toggle"
+                            onClick={e => {
+                                this.setState({ showBio: false })
+                            }}
+                        >
+                            Skills <BsArrowRight/>
+                        </button>
+                    </div>
                 </React.Fragment>
             )
         } else {
             return (
                 <React.Fragment>
                     <Skills />
-                    <button
-                        onClick={e => {
-                            this.setState({ showBio: true })
-                        }}
-                    >
-                        Show Bio
-                    </button>
+                    <div className="toggle-button-container">
+                        <button className="bio-toggle"
+                            onClick={e => {
+                                this.setState({ showBio: true })
+                            }}
+                        >
+                            Bio <BsArrowRight/>
+                        </button>
+                    </div>
                 </React.Fragment>
             )
         }
