@@ -1,14 +1,9 @@
 import React, { Component } from "react";
-import { Switch, Route, Link } from "react-router-dom";
-import { Row, Col, Container, Carousel } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import '../styles/Main.css';
-import Bio from './Bio';
-import Demo from './Demo';
-import Cohort from "./Cohort";
-import WordCloud from '../assets/wordcloud.jpg';
 import styled, { keyframes } from 'styled-components';
 import { merge, bounceIn, fadeIn, zoomIn, rotateIn, fadeOut } from 'react-animations';
-import Overdrive from 'react-overdrive';
+// import Overdrive from 'react-overdrive';
 
 //animations
 const zoomAnimation = keyframes`${zoomIn}`;
