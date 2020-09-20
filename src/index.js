@@ -1,7 +1,9 @@
 import React, { Fragment } from 'react';
 import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import App from './components/App';
+import Home from './components/Home';
+import HeaderNav from './components/HeaderNav';
 import { Provider } from "react-redux";
 import { createStore, applyMiddleware } from "redux";
 import ReduxPromise from "redux-promise";
@@ -15,7 +17,7 @@ ReactDOM.render(
   // <Provider store={createStoreWithMiddleware(reducers)}>
     <BrowserRouter>
       <Fragment>
-        <App/>
+          <App/>
       </Fragment>
     </BrowserRouter>,
   // </Provider>,

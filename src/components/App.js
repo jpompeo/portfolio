@@ -28,7 +28,6 @@ const App = () => {
 
               {/* Home page */}
               <Route exact path={["/", "/home"]} component={Home} />
-              <Route exact path={"/main"} component={Main} />
 
               {/* Bio */}
               <Route exact path="/about" component={Bio} />
