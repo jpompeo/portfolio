@@ -1,7 +1,6 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import { Row, Col, Container } from "react-bootstrap";
-import Main from './Main';
 import HeaderNav from './HeaderNav';
 import Bio from './Bio';
 import ProjectList from './ProjectList';

@@ -1,9 +1,7 @@
 import React from "react";
-import { Link } from 'react-router-dom';
-import { Row, Col, Container, Button } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 import '../styles/Bio.css';
 import JoannaHeadshot from '../assets/headshot1.jpg';
-import Overdrive from 'react-overdrive';
 
 const Bio = () => {
     return (
